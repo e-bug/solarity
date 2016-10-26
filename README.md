@@ -1,2 +1,17 @@
-# ada-project
-Repository for the project in Applied Data Analysis, EPFL 2016/2017.
+# ADA Project
+Team members: Emanuele Bugliarello, Maaz Mohiuddin, and Wajeb Saab.
+
+# Abstract
+
+
+## Data description
+
+
+## Feasibility and Risks
+
+
+## Deliverables
+
+
+## Timeplan
+
