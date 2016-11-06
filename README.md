@@ -2,7 +2,7 @@
 Team members: Emanuele Bugliarello, Maaz Mohiuddin, and Wajeb Saab.
 
 ## Abstract
-The massive drive towards renewable energy from Swiss electrical utilities is making domestic solar installations wide-spread all across Switzerland. To make an informed decision about the installations, households require information regarding the initial investment, overall cost, and potential savings, tailored to each person’s needs. Google’s project Sunroof is aimed at providing this information and is currently available for only a few select states in the United States. Our aim in this project is to provide a similar platform for Switzerland. We will be using weather data to estimate of how much solar energy each area in Switzerland can generate. Additionally, based on historical weather data, we will predict the solar energy production in the coming years. We will couple this information with other inputs, such as roof size and average energy consumption, to provide each person with information regarding the initial investment, overall cost, break-even time, and potential savings.
+The massive drive towards renewable energy from Swiss electrical utilities is making domestic solar installations wide-spread all across Switzerland. To make an informed decision about the installations, households require information regarding the initial investment, overall cost, and potential savings, tailored to each person’s needs. Google’s [Project Sunroof](https://www.google.com/get/sunroof) is aimed at providing this information and is currently available for only a few select states in the United States. Our aim in this project is to provide a similar platform for Switzerland. We will be using weather data to estimate of how much solar energy each area in Switzerland can generate. Additionally, based on historical weather data, we will predict the solar energy production in the coming years. We will couple this information with other inputs, such as roof size and average energy consumption, to provide each person with information regarding the initial investment, overall cost, break-even time, and potential savings.
 
 ## Data description
 The data to be used for this project is not publicly available and its retrieval is the first challenging aspect of this project.
@@ -25,7 +25,7 @@ The project consists of three main parts:
     * Predict solar potential in the coming years based on the historic data
 3. **Data Visualization**: Producing a platform with a clean interface and that is easily  usable will be one of the main challenging aspects of this project.
 
-Using weather data will allow us to provide estimates for an area rather than each specific house (as in the Google Sunroof project). Although less accurate, our idea uses data that is more readily and publicly available, which allows it to be reproduced in other areas.
+Using weather data will allow us to provide estimates for an area rather than each specific house (as in the Google's Project Sunroof). Although less accurate, our idea uses data that is more readily and publicly available, which allows it to be reproduced in other areas.
 
 
 ## Deliverables
