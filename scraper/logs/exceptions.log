@@ -1,0 +1,1034 @@
+ERROR:root:main exception - 2016-11-25 23:59:52.507579
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 169, in <module>
+    driver.find_element_by_xpath("//input[@value='Select all']").click()
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Select all']"}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-11-26 00:10:42.815657
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 140, in <module>
+    driver.find_element_by_xpath("//input[@value='Search']").click()     # Search for these params
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 77, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 494, in _execute
+    return self._parent.execute(command, params)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 234, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 407, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 439, in _request
+    resp = self._conn.getresponse()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/ema/anaconda3/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+ERROR:root:main exception - 2016-11-26 00:21:12.123866
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 166, in <module>
+    driver.find_element_by_xpath("//input[@value='Select all']").click()
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Select all']"}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-11-26 00:22:02.612343
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 166, in <module>
+    driver.find_element_by_xpath("//input[@value='Select all']").click()
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Select all']"}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-11-26 00:23:33.801948
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 166, in <module>
+    driver.find_element_by_xpath("//input[@value='Select all']").click()
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Select all']"}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-11-26 00:24:34.958669
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 166, in <module>
+    driver.find_element_by_xpath("//input[@value='Select all']").click()
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Select all']"}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-11-26 00:25:58.009650
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 167, in <module>
+    driver.find_element_by_xpath("//input[@value='Select all']").click()
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Select all']"}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-11-26 00:30:46.749176
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 138, in <module>
+    driver.find_element_by_xpath("//option[@value='radiation']").click() # Param. Group = radiation
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-11-26 00:31:07.102598
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 138, in <module>
+    driver.find_element_by_xpath("//option[@value='radiation']").click() # Param. Group = radiation
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-11-26 00:31:09.538316
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 138, in <module>
+    driver.find_element_by_xpath("//option[@value='radiation']").click() # Param. Group = radiation
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-11-26 00:36:44.299109
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 137, in <module>
+    driver.get("https://gate.meteoswiss.ch/idaweb/system/orderWizard.do?method=parameter")
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 248, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 234, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 407, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 439, in _request
+    resp = self._conn.getresponse()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/ema/anaconda3/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+ERROR:root:main exception - 2016-11-26 00:37:51.233692
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 149, in <module>
+    driver.find_element_by_xpath("//input[@value='Select all']").click()
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 77, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 494, in _execute
+    return self._parent.execute(command, params)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 234, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 407, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 439, in _request
+    resp = self._conn.getresponse()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/ema/anaconda3/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+ERROR:root:main exception - 2016-11-26 00:38:32.869227
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 125, in <module>
+    login_to_idaweb()
+  File "idaweb_scraper.py", line 54, in login_to_idaweb
+    driver.find_element_by_xpath("//input[@name='user']").send_keys(email)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='user']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"105","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:35376","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"value\": \"//input[@name='user']\", \"using\": \"xpath\", \"sessionId\": \"46aa37b0-b368-11e6-8e70-6557501ea70f\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/46aa37b0-b368-11e6-8e70-6557501ea70f/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-26 00:38:34.390414
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 125, in <module>
+    login_to_idaweb()
+  File "idaweb_scraper.py", line 54, in login_to_idaweb
+    driver.find_element_by_xpath("//input[@name='user']").send_keys(email)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='user']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"105","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:34893","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"using\": \"xpath\", \"sessionId\": \"4794bec0-b368-11e6-8585-71a48d1cca55\", \"value\": \"//input[@name='user']\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/4794bec0-b368-11e6-8585-71a48d1cca55/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-26 00:39:40.202179
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 148, in <module>
+    driver.execute_script("javascript:setMethod('step');setState('station');submitCountValidated();")
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 465, in execute_script
+    'args': converted_args})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 234, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 407, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 439, in _request
+    resp = self._conn.getresponse()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/ema/anaconda3/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+ERROR:root:main exception - 2016-11-26 00:40:53.644178
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 138, in <module>
+    driver.find_element_by_xpath("//option[@value='radiation']").click() # Param. Group = radiation
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-11-26 00:40:56.751370
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 138, in <module>
+    driver.find_element_by_xpath("//option[@value='radiation']").click() # Param. Group = radiation
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-11-26 00:41:00.644026
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 125, in <module>
+    login_to_idaweb()
+  File "idaweb_scraper.py", line 56, in login_to_idaweb
+    driver.find_element_by_xpath("//input[@value='Login']").click()
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 77, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 494, in _execute
+    return self._parent.execute(command, params)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 234, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 407, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 439, in _request
+    resp = self._conn.getresponse()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/ema/anaconda3/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+ERROR:root:main exception - 2016-11-26 00:45:27.299459
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 125, in <module>
+    login_to_idaweb()
+  File "idaweb_scraper.py", line 54, in login_to_idaweb
+    driver.find_element_by_xpath("//input[@name='user']").send_keys(email)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='user']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"105","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:45445","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"value\": \"//input[@name='user']\", \"using\": \"xpath\", \"sessionId\": \"3db0e540-b369-11e6-b6f6-bddfcc32feb5\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/3db0e540-b369-11e6-b6f6-bddfcc32feb5/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-26 00:46:13.981996
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 125, in <module>
+    login_to_idaweb()
+  File "idaweb_scraper.py", line 54, in login_to_idaweb
+    driver.find_element_by_xpath("//input[@name='user']").send_keys(email)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='user']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"105","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:49239","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"using\": \"xpath\", \"value\": \"//input[@name='user']\", \"sessionId\": \"58ec7bd0-b369-11e6-bdeb-35a4a414053c\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/58ec7bd0-b369-11e6-bdeb-35a4a414053c/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-26 00:47:58.552515
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 126, in <module>
+    login_to_idaweb()
+  File "idaweb_scraper.py", line 54, in login_to_idaweb
+    driver.find_element_by_xpath("//input[@name='user']").send_keys(email)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='user']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"105","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:33179","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"using\": \"xpath\", \"value\": \"//input[@name='user']\", \"sessionId\": \"8c0562c0-b369-11e6-9258-d9055137d31b\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/8c0562c0-b369-11e6-9258-d9055137d31b/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-26 00:51:44.398468
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 126, in <module>
+    login_to_idaweb()
+  File "idaweb_scraper.py", line 54, in login_to_idaweb
+    driver.find_element_by_xpath("//input[@name='user']").send_keys(email)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='user']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"105","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:55232","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"using\": \"xpath\", \"value\": \"//input[@name='user']\", \"sessionId\": \"10dbbbc0-b36a-11e6-8fbb-fbfe7213c279\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/10dbbbc0-b36a-11e6-8fbb-fbfe7213c279/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 18:45:14.217475
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 136, in <module>
+    login_to_idaweb()
+  File "idaweb_scraper.py", line 64, in login_to_idaweb
+    driver.find_element_by_xpath("//input[@name='user']").send_keys(email)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='user']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"105","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:41118","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"using\": \"xpath\", \"sessionId\": \"891d8070-b65b-11e6-a756-b3a32c884ffb\", \"value\": \"//input[@name='user']\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/891d8070-b65b-11e6-a756-b3a32c884ffb/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 18:46:07.254269
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 149, in <module>
+    driver.find_element_by_xpath("//option[@value='radiation']").click() # Param. Group = radiation
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-11-29 18:47:56.279693
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 145, in <module>
+    login_to_idaweb()
+  File "idaweb_scraper.py", line 73, in login_to_idaweb
+    driver.find_element_by_xpath("//input[@name='user']").send_keys(email)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='user']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"105","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:59170","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"sessionId\": \"f5874160-b65b-11e6-bdd0-4d08a6fc401d\", \"using\": \"xpath\", \"value\": \"//input[@name='user']\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/f5874160-b65b-11e6-bdd0-4d08a6fc401d/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 18:51:11.093468
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 145, in <module>
+    login_to_idaweb()
+  File "idaweb_scraper.py", line 73, in login_to_idaweb
+    driver.find_element_by_xpath("//input[@name='user']").send_keys(email)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='user']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"105","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:32922","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"value\": \"//input[@name='user']\", \"using\": \"xpath\", \"sessionId\": \"69a61f80-b65c-11e6-9864-ff279c43ce2b\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/69a61f80-b65c-11e6-9864-ff279c43ce2b/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 18:54:01.388784
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 176, in <module>
+    driver.find_element_by_xpath("//input[@name='since']").send_keys(quarter[0])
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='since']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"106","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:46855","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"using\": \"xpath\", \"sessionId\": \"c8a398f0-b65c-11e6-81f6-3d6e2c1477ac\", \"value\": \"//input[@name='since']\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/c8a398f0-b65c-11e6-81f6-3d6e2c1477ac/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 19:03:19.954480
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 176, in <module>
+    driver.find_element_by_xpath("//input[@name='since']").send_keys(quarter[0])
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='since']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"106","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:44673","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"value\": \"//input[@name='since']\", \"sessionId\": \"16242f30-b65e-11e6-b29e-0700f453049e\", \"using\": \"xpath\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/16242f30-b65e-11e6-b29e-0700f453049e/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 19:04:44.551665
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 176, in <module>
+    driver.find_element_by_xpath("//input[@name='since']").send_keys(quarter[0])
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='since']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"106","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:37482","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"using\": \"xpath\", \"sessionId\": \"3cb4c600-b65e-11e6-ab26-e791330b63fc\", \"value\": \"//input[@name='since']\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/3cb4c600-b65e-11e6-ab26-e791330b63fc/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 19:07:44.751265
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 176, in <module>
+    driver.find_element_by_xpath("//input[@name='since']").send_keys(quarter[0])
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='since']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"106","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:54771","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"using\": \"xpath\", \"sessionId\": \"9079a0d0-b65e-11e6-a005-8d45c1a271c7\", \"value\": \"//input[@name='since']\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/9079a0d0-b65e-11e6-a005-8d45c1a271c7/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 19:09:51.386339
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 167, in <module>
+    driver.find_element_by_xpath("//input[@name='since']").send_keys(quarter[0])
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='since']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"106","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:57604","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"sessionId\": \"eea99110-b65e-11e6-92e0-f1f3b349b953\", \"value\": \"//input[@name='since']\", \"using\": \"xpath\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/eea99110-b65e-11e6-92e0-f1f3b349b953/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 19:26:34.651062
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 159, in <module>
+    link = driver.find_element_by_xpath("//a[@class='wizard' and @href='javascript:setMethod('step');"
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: {"errorMessage":"Unable to locate an element with the xpath expression //a[@class='wizard' and @href='javascript:setMethod('step');setState('criteria');submitCountValidated();' because of the following error:\nError: INVALID_EXPRESSION_ERR: DOM XPath Exception 51","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"189","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:55311","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"using\": \"xpath\", \"sessionId\": \"441d6980-b661-11e6-9e31-f1df1011f44f\", \"value\": \"//a[@class='wizard' and @href='javascript:setMethod('step');setState('criteria');submitCountValidated();'\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/441d6980-b661-11e6-9e31-f1df1011f44f/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 19:37:10.696829
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 159, in <module>
+    link = driver.find_element_by_xpath("//a[@class='wizard' and @href='javascript:setMethod('step');"
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: {"errorMessage":"Unable to locate an element with the xpath expression //a[@class='wizard' and @href='javascript:setMethod('step');setState('criteria');submitCountValidated();'] because of the following error:\nError: INVALID_EXPRESSION_ERR: DOM XPath Exception 51","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"190","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:47479","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"using\": \"xpath\", \"value\": \"//a[@class='wizard' and @href='javascript:setMethod('step');setState('criteria');submitCountValidated();']\", \"sessionId\": \"bf494880-b662-11e6-a633-1b8e87570220\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/bf494880-b662-11e6-a633-1b8e87570220/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 19:42:04.644266
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 159, in <module>
+    link = driver.find_element_by_xpath("//a[contains(@class, 'wizard')"
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: {"errorMessage":"Unable to locate an element with the xpath expression //a[contains(@class, 'wizard')and contains(@href, 'javascript:setMethod('step');setState('criteria');submitCountValidated();')] because of the following error:\nError: INVALID_EXPRESSION_ERR: DOM XPath Exception 51","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"211","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:53094","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"sessionId\": \"6e76dd40-b663-11e6-96bc-5160e1732e3a\", \"value\": \"//a[contains(@class, 'wizard')and contains(@href, 'javascript:setMethod('step');setState('criteria');submitCountValidated();')]\", \"using\": \"xpath\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/6e76dd40-b663-11e6-96bc-5160e1732e3a/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 19:44:54.729286
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 161, in <module>
+    for link in links:
+TypeError: 'WebElement' object is not iterable
+ERROR:root:main exception - 2016-11-29 19:46:05.912593
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 176, in <module>
+    driver.find_element_by_xpath("//input[@name='since']").send_keys(quarter[0])
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='since']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"106","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:53656","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"value\": \"//input[@name='since']\", \"using\": \"xpath\", \"sessionId\": \"fe753310-b663-11e6-985e-3918554b54e6\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/fe753310-b663-11e6-985e-3918554b54e6/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 19:50:25.781435
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 177, in <module>
+    driver.find_element_by_xpath("//input[@name='since']").send_keys(quarter[0])
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 234, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 407, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 477, in _request
+    resp = opener.open(request, timeout=self._timeout)
+  File "/home/ema/anaconda3/lib/python3.5/urllib/request.py", line 466, in open
+    response = self._open(req, data)
+  File "/home/ema/anaconda3/lib/python3.5/urllib/request.py", line 484, in _open
+    '_open', req)
+  File "/home/ema/anaconda3/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/home/ema/anaconda3/lib/python3.5/urllib/request.py", line 1282, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/home/ema/anaconda3/lib/python3.5/urllib/request.py", line 1257, in do_open
+    r = h.getresponse()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/ema/anaconda3/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+ERROR:root:main exception - 2016-11-29 19:53:12.913168
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 161, in <module>
+    if link.get_attribute("href") == "javascript:setMethod('step');setState('criteria');submitCountValidated();":
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 141, in get_attribute
+    resp = self._execute(Command.GET_ELEMENT_ATTRIBUTE, {'name': name})
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 494, in _execute
+    return self._parent.execute(command, params)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-11-29 19:54:18.585210
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 182, in <module>
+    if check_exists_by_xpath("//div[@id='no_results']"):
+  File "idaweb_scraper.py", line 64, in check_exists_by_xpath
+    driver.find_element_by_xpath(xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-11-29 19:55:09.629024
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 175, in <module>
+    driver.find_element_by_xpath("//input[@name='since']").send_keys(quarter[0])
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='since']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"106","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:42228","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"using\": \"xpath\", \"sessionId\": \"42738d40-b665-11e6-9ffc-d778a24a2419\", \"value\": \"//input[@name='since']\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/42738d40-b665-11e6-9ffc-d778a24a2419/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 20:02:47.579878
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 175, in <module>
+    driver.find_element_by_xpath("//input[@name='since']").send_keys(quarter[0])
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='since']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"106","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:59166","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"value\": \"//input[@name='since']\", \"using\": \"xpath\", \"sessionId\": \"40d74cf0-b666-11e6-8a0f-d1758b368cf4\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/40d74cf0-b666-11e6-8a0f-d1758b368cf4/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 20:05:51.651683
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 176, in <module>
+    driver.find_element_by_xpath("//input[@name='since']").send_keys(quarter[0])
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='since']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"106","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:56105","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"value\": \"//input[@name='since']\", \"using\": \"xpath\", \"sessionId\": \"bfc49630-b666-11e6-990b-a56d07809efd\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/bfc49630-b666-11e6-990b-a56d07809efd/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 20:08:06.692703
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 176, in <module>
+    driver.find_element_by_xpath("//input[@name='till']").send_keys(quarter[1])
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='since']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"106","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:54097","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"value\": \"//input[@name='since']\", \"sessionId\": \"10af4ef0-b667-11e6-9da1-fb6cf49bf1fb\", \"using\": \"xpath\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/10af4ef0-b667-11e6-9da1-fb6cf49bf1fb/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 20:10:47.268291
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 175, in <module>
+    driver.find_element_by_xpath("//input[@name='since']").send_keys(quarter[0])
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='since']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"106","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:54680","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"sessionId\": \"700f33b0-b667-11e6-8ec6-1fc28e858df3\", \"using\": \"xpath\", \"value\": \"//input[@name='since']\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/700f33b0-b667-11e6-8ec6-1fc28e858df3/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 20:12:11.553437
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 176, in <module>
+    driver.find_element_by_xpath("//input[@name='since']").send_keys(quarter[0])
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='since']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"106","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:37743","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"using\": \"xpath\", \"value\": \"//input[@name='since']\", \"sessionId\": \"a130b770-b667-11e6-ae95-a3d29e1e615b\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/a130b770-b667-11e6-ae95-a3d29e1e615b/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 20:14:09.000644
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 183, in <module>
+    if check_exists_by_xpath("//div[@id='no_results']"):
+  File "idaweb_scraper.py", line 64, in check_exists_by_xpath
+    driver.find_element_by_xpath(xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-11-29 20:20:43.704656
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 156, in <module>
+    driver.execute_script("$('input.Select.all').click()")
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 465, in execute_script
+    'args': converted_args})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: $ is not defined
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-11-29 20:23:33.248718
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 143, in <module>
+    login_to_idaweb()
+  File "idaweb_scraper.py", line 57, in login_to_idaweb
+    driver.find_element_by_xpath("//input[@name='user']").send_keys(email)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='user']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"105","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:44575","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"value\": \"//input[@name='user']\", \"using\": \"xpath\", \"sessionId\": \"3f0544b0-b669-11e6-ad12-d340e36bba73\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/3f0544b0-b669-11e6-ad12-d340e36bba73/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 20:25:58.666994
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 142, in <module>
+    login_to_idaweb()
+  File "idaweb_scraper.py", line 57, in login_to_idaweb
+    driver.find_element_by_xpath("//input[@name='user']").send_keys(email)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='user']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"105","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:56212","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"sessionId\": \"95edf4c0-b669-11e6-9c5f-49ec6890b5ea\", \"using\": \"xpath\", \"value\": \"//input[@name='user']\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/95edf4c0-b669-11e6-9c5f-49ec6890b5ea/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 20:29:14.917477
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 178, in <module>
+    driver.find_element_by_xpath("//input[@name='since']").send_keys(quarter[0])
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='since']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"106","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:42621","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"value\": \"//input[@name='since']\", \"using\": \"xpath\", \"sessionId\": \"058b1b50-b66a-11e6-a46d-b1be07790305\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/058b1b50-b66a-11e6-a46d-b1be07790305/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 20:33:41.305280
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 155, in <module>
+    driver.find_element_by_xpath("//input[@onclick='setMethod('selectAll');submit();']").click()
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: {"errorMessage":"Unable to locate an element with the xpath expression //input[@onclick='setMethod('selectAll');submit();'] because of the following error:\nError: INVALID_EXPRESSION_ERR: DOM XPath Exception 51","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"136","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:41551","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"using\": \"xpath\", \"sessionId\": \"a38aa5a0-b66a-11e6-ab28-e365573ab4a4\", \"value\": \"//input[@onclick='setMethod('selectAll');submit();']\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/a38aa5a0-b66a-11e6-ab28-e365573ab4a4/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 20:36:33.149707
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 154, in <module>
+    driver.find_element_by_xpath("//input[contains(value,'Select')]").click()
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[contains(value,'Select')]'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"117","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:58385","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"using\": \"xpath\", \"sessionId\": \"0b344670-b66b-11e6-8bc6-93ab2c120560\", \"value\": \"//input[contains(value,'Select')]\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/0b344670-b66b-11e6-8bc6-93ab2c120560/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 20:41:41.914196
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 155, in <module>
+    driver.find_element_by_xpath("//input[@onclick='setMethod(\'selectAll\');submit();']").click()
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: {"errorMessage":"Unable to locate an element with the xpath expression //input[@onclick='setMethod('selectAll');submit();'] because of the following error:\nError: INVALID_EXPRESSION_ERR: DOM XPath Exception 51","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"136","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:55918","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"using\": \"xpath\", \"value\": \"//input[@onclick='setMethod('selectAll');submit();']\", \"sessionId\": \"c1499640-b66b-11e6-a5f2-d9230262779d\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/c1499640-b66b-11e6-a5f2-d9230262779d/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 20:43:01.458487
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 155, in <module>
+    driver.find_element_by_xpath("//input[@onclick='setMethod('selectAll');submit();']").click()
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: {"errorMessage":"Unable to locate an element with the xpath expression //input[@onclick='setMethod('selectAll');submit();'] because of the following error:\nError: INVALID_EXPRESSION_ERR: DOM XPath Exception 51","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"136","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:49690","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"sessionId\": \"f29b03a0-b66b-11e6-9e80-3df0bb486070\", \"value\": \"//input[@onclick='setMethod('selectAll');submit();']\", \"using\": \"xpath\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/f29b03a0-b66b-11e6-9e80-3df0bb486070/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 20:46:18.492740
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 155, in <module>
+    driver.find_element_by_xpath("//input[@onclick='setMethod('selectAll');submit();']").click()
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //input[@onclick='setMethod('selectAll');submit();'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@onclick='setMethod('selectAll');submit();']' is not a valid XPath expression.
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-11-29 21:01:05.824277
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 184, in <module>
+    if check_exists_by_xpath("//div[@id='no_results']"):
+  File "idaweb_scraper.py", line 64, in check_exists_by_xpath
+    driver.find_element_by_xpath(xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-11-29 21:02:26.762823
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 177, in <module>
+    driver.find_element_by_xpath("//input[@name='since']").send_keys(quarter[0])
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='since']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"106","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:45349","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"value\": \"//input[@name='since']\", \"sessionId\": \"a7a8bc90-b66e-11e6-8077-5d6c65b18738\", \"using\": \"xpath\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/a7a8bc90-b66e-11e6-8077-5d6c65b18738/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 21:04:13.274369
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 170, in <module>
+    page = driver.page_source
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 501, in page_source
+    return self.execute(Command.GET_PAGE_SOURCE)['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : Please select at least one item.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-11-29 21:05:50.550273
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 177, in <module>
+    driver.find_element_by_xpath("//input[@name='since']").send_keys(quarter[0])
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='since']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"106","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:55002","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"sessionId\": \"20b5cfb0-b66f-11e6-85a5-a3c7fba2e583\", \"using\": \"xpath\", \"value\": \"//input[@name='since']\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/20b5cfb0-b66f-11e6-85a5-a3c7fba2e583/element"}}
+Screenshot: available via screen
+
+ERROR:root:main exception - 2016-11-29 21:07:55.605882
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 142, in <module>
+    driver.get("https://gate.meteoswiss.ch/idaweb/system/orderWizard.do?method=parameter")
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 248, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-11-29 21:08:53.862564
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 156, in <module>
+    driver.save_screenshot('screenie3.png')
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 798, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 817, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 827, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-11-29 21:09:47.234188
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 176, in <module>
+    driver.find_element_by_xpath("//input[@name='since']").send_keys(quarter[0])
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: {"errorMessage":"Unable to find element with xpath '//input[@name='since']'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"106","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:51917","User-Agent":"Python-urllib/3.5"},"httpVersion":"1.1","method":"POST","post":"{\"value\": \"//input[@name='since']\", \"sessionId\": \"ae8cd8b0-b66f-11e6-8925-337fbd408c43\", \"using\": \"xpath\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/ae8cd8b0-b66f-11e6-8925-337fbd408c43/element"}}
+Screenshot: available via screen
+
