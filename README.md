@@ -33,11 +33,11 @@ Our main goal is to deliver a platform that a user can query. The inputs of a qu
 
 ## Timeplan
 
-| Deliverable | Due Date |
-|----------|-------------|
-| Retrieve & Understand weather data  |  November 20, 2016 |
-| Wrangle weather data & retrieve financial data from different solar panel providers   |    December 4, 2016   |
-| Apply model to the data to transform weather information such as cloud information, irradiation, etc. to solar energy potential for the current year   | December 11, 2016 |
-| Basic platform & basic outputs based on collected data; completed & tested |    December 18, 2016   |
-| Predict solar potential in future years based on trend in previous years |    January 8, 2017   |
-| Final platform & viz; completed & tested   |    January 15, 2017   |
+| Deliverable | Due Date | Status |
+|----------|-------------|--------|
+| Retrieve & Understand weather data  |  November 20, 2016 | :white_check_mark: |
+| Wrangle weather data & retrieve financial data from different solar panel providers   |    December 4, 2016   | :white_check_mark: |
+| Apply model to the data to transform weather information such as cloud information, irradiation, etc. to solar energy potential for the current year   | December 11, 2016 | :warning: |
+| Basic platform & basic outputs based on collected data; completed & tested |    December 18, 2016   |  |
+| Predict solar potential in future years based on trend in previous years |    January 8, 2017   |  |
+| Final platform & viz; completed & tested   |    January 15, 2017   |  |
