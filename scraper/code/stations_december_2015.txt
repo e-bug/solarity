@@ -1,0 +1,215 @@
+Aadorf / Tänikon	539	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Acquarossa / Comprovasco	575	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Adelboden	1327	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Aigle	381	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Alptal Bestand	1168	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Altdorf	438	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Altenrhein	398	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Andeer	987	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Andermatt	1438	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Anzère	1614	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Arolla	2005	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Arosa	1840	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Arosa	1878	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Arosa / Tschuggen	2040	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Bad Ragaz	496	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Baltschiedertal	1318	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015
+Barrage Grande Dixence	2162	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Basel / Binningen	316	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Beatenberg Bestand	1522	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Beatenberg Freiland	1560	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Bergün / Latsch	1408	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	20.03.2015	31.12.2015	
+Bern / Zollikofen	553	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Bettlachstock Bestand	1050	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Bettlachstock Freiland	1101	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Beznau	326	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Bière	684	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Binn	1448	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Bischofszell	470	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Bivio	1856	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	28.04.2015	31.12.2015	
+Blatten, Lötschental	1538	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Blinnen	1530	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Boltigen	820	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015
+Bourg-St-Pierre	1822	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Bouveret	374	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Bricola	2431	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Bruchji	2300	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Buchs / Aarau	387	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Buffalora	1968	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Bullet / La Frétaz	1205	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Celerina Bestand	1760	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Celerina Freiland	1865	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Cevio	417	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Cham	443	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Champéry	1055	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Chasseral	1599	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Château-d'Oex	1029	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Chaumont	1136	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Chironico Bestand	1460	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Chironico Freiland	1380	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Choëx	891	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Chur	556	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Cimetta	1661	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Clusanfe	1926	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Col des Mosses	1412	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	10.04.2015	31.12.2015	
+Col du Grand St-Bernard	2472	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Courtelary	695	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	17.03.2015	31.12.2015	
+Crap Masegn	2480	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Cressier	431	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Davos	1594	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Delémont	439	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Derborence	1366	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Disentis / Sedrun	1197	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Durnand	1214	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Ebnat-Kappel	623	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Eggishorn	2893	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Egolzwil	521	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Einsiedeln	910	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Elm	958	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Emosson	1923	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Engelberg	1036	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Ergisch	1133	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Evionnaz	482	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Evolène / Villa	1825	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Fahy	596	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Findelen	2170	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Flühli, LU	940	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	19.03.2015	31.12.2015	
+Fribourg / Posieux	646	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Frutigen	756	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	18.08.2015	31.12.2015	
+Genève-Cointrin	412	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Gersau	521	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	10.03.2015	31.12.2015	
+Giswil	471	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Glarus	517	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Gornergrat	3129	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Göscheneralp	1745	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Gösgen	380	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Grächen	1605	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Grenchen	430	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Grimsel Hospiz	1980	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Grono	324	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Gütsch ob Andermatt	2283	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Güttingen	440	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Hallau	419	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Hörnli	1144	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Ilanz	698	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Interlaken	577	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Isérables	1237	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Isone Bestand	1194	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Isone Freiland	1149	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Jeizinen	1556	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Jungfraujoch	3580	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Jussy Bestand	500	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Jussy Freiland	497	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Koppigen	484	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+La Brévine	1050	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+La Chaux-de-Fonds	1018	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Lachen / Galgenen	468	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	27.10.2015	31.12.2015	
+La Dôle	1670	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+LaFouly	1564	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Lägern	845	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Langnau i.E.	745	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Lausanne Bestand	806	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Lausanne Freiland	790	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Leibstadt	341	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Le Moléson	1974	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Lens Bestand	1069	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Les Attelas	2730	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Les Charbonnières	1045	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Les Collons	1770	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Les Marécottes	990	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	24.08.2015	31.12.2015	
+Locarno / Monti	367	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Lugano	273	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Luzern	454	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Magadino / Cadenazzo	203	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Marsens	715	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Mathod	437	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Matro	2171	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Mattsand	1230	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Meiringen	589	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Möhlin	344	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Moiry	2127	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Montana	1427	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Monte Generoso	1600	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Monte Rosa-Plattje	2885	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Mosen	453	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Mottec	1580	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	15.04.2015	31.12.2015	
+Mühleberg	480	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Naluns / Schlivera	2400	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Napf	1404	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Nationalpark Bestand	1913	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Nationalpark Freiland	1899	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Nendaz	1938	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Neuchâtel	485	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Neunkirch Bestand	561	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Neunkrich Freiland	463	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Nottwil / SPZ	510	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	12.05.2015	31.12.2015	
+Novaggio Bestand	928	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Novaggio Freiland	1055	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Nyon / Changins	455	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Oberriet, SG	409	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	05.05.2015	31.12.2015	
+Oron	827	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Otemma	2357	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	10.12.2015	31.12.2015	
+Othmarsingen Bestand	474	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Othmarsingen Freiland	461	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Passo del Bernina	2260	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Payerne	490	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Pilatus	2106	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Piotta	990	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Piz Corvatsch	3302	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Piz Martegnas	2670	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Plaffeien	1042	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015
+Poschiavo / Robbia	1078	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+PSI Würenlingen	334	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Pully	456	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Robièi	1896	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Rossberg	1119	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Rünenberg	611	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Saas Balen	1535	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Salanfe	1965	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Saleina	1600	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Salen-Reutenen	718	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Samedan	1709	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Säntis	2502	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Sattel-Aegeri	790	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+S. Bernardino	1639	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Schaffhausen	438	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Schänis Bestand	709	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Schänis Freiland	626	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Schiers	626	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Schüpfheim	742	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Scuol	1304	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Segl-Maria	1804	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Sierre	535	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Sion	482	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Sorniot-Lac Inférieur	1990	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Stabio	353	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Stafel	2183	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Sta. Maria, Val Müstair	1383	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+St. Gallen	776	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Stöckalp	1070	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Thun	570	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Titlis	3040	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Trient	1329	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Tsanfleuron	2052	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Turtmann	2180	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Ulrichen	1346	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Vaduz	457	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Valbella	1569	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Vals	1242	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.04.2015	31.12.2015	
+Vercorin	1650	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Vevey / Corseaux	405	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	07.09.2015	31.12.2015	
+Vicosoprano	1089	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Villars-Tiercelin	859	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Visp	639	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Visp Bestand	698	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Visperterminen	1352	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Visp Freiland	640	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Vordemwald Bestand	482	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Vordemwald Freiland	480	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015
+Wädenswil	485	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Weissfluhjoch	2691	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Wynau	422	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Zermatt	1638	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Zürich / Affoltern	444	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Zürich / Fluntern	556	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015	
+Zürich / Kloten	426	Air temperature 2 m above ground; current value	degree Celsius	Ten minutes	01.01.2015	31.12.2015

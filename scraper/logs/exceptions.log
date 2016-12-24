@@ -14,3 +14,741 @@ selenium.common.exceptions.NoSuchElementException: Message: no such element: Una
   (Session info: chrome=53.0.2785.116)
   (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
 
+ERROR:root:main exception - 2016-12-01 16:33:56.504258
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 136, in <module>
+    driver.get("https://gate.meteoswiss.ch/idaweb/system/orderWizard.do?method=parameter")
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 248, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-01 17:01:47.851521
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 170, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,037,266 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-01 17:02:36.317191
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 170, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,154,769 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-01 17:03:24.578086
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 170, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,352,319 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-01 17:04:12.196724
+Traceback (most recent call last):
+  File "idaweb_scraper.py", line 170, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,404,194 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-02 13:48:07.852376
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 164, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,526,480 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-02 14:22:00.125645
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 148, in <module>
+    driver.find_element_by_xpath("//input[@name='since']").send_keys(tertile[0])
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+ERROR:root:main exception - 2016-12-02 14:31:19.117882
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 165, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,105,822 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-07 12:27:34.516064
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 131, in <module>
+    driver.get("https://gate.meteoswiss.ch/idaweb/system/orderWizard.do?method=parameter")
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 248, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-07 13:13:32.867170
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 165, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,105,822 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-07 13:14:33.025137
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 165, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,058,911 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-07 13:15:32.863623
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 165, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,214,480 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-07 13:16:34.811606
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 165, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,379,084 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-07 13:17:34.341592
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 165, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,532,068 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-07 13:18:33.989226
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 165, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : Sie können pro Bestellung maximal 200 Messreihen selektieren. Sie haben aktuell 204 Messreihen ausgewählt. Bitte reduzieren Sie ihre Auswahl. }
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-09 16:25:20.151131
+Traceback (most recent call last):
+  File "idaweb_radiation_scraper.py", line 172, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,037,266 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-09 16:25:52.527715
+Traceback (most recent call last):
+  File "idaweb_radiation_scraper.py", line 172, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,154,769 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-09 16:26:24.804501
+Traceback (most recent call last):
+  File "idaweb_radiation_scraper.py", line 172, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,352,319 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-09 16:26:54.983573
+Traceback (most recent call last):
+  File "idaweb_radiation_scraper.py", line 172, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,404,194 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-09 16:31:17.464110
+Traceback (most recent call last):
+  File "idaweb_radiation_scraper.py", line 172, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,037,266 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-09 16:31:47.644881
+Traceback (most recent call last):
+  File "idaweb_radiation_scraper.py", line 172, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,154,769 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-09 16:32:17.001696
+Traceback (most recent call last):
+  File "idaweb_radiation_scraper.py", line 172, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,352,319 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-09 16:32:20.314007
+Traceback (most recent call last):
+  File "idaweb_radiation_scraper.py", line 139, in <module>
+    driver.find_element_by_xpath("//option[@value='radiation']").click() # Param. Group = radiation
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-09 16:35:20.206213
+Traceback (most recent call last):
+  File "idaweb_radiation_scraper.py", line 175, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,037,266 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-09 16:35:58.958098
+Traceback (most recent call last):
+  File "idaweb_radiation_scraper.py", line 175, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,154,769 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-09 16:36:03.437546
+Traceback (most recent call last):
+  File "idaweb_radiation_scraper.py", line 140, in <module>
+    driver.find_element_by_xpath("//option[@value='radiation']").click() # Param. Group = radiation
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-09 16:36:05.906588
+Traceback (most recent call last):
+  File "idaweb_radiation_scraper.py", line 140, in <module>
+    driver.find_element_by_xpath("//option[@value='radiation']").click() # Param. Group = radiation
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-09 16:50:46.509091
+Traceback (most recent call last):
+  File "idaweb_radiation_scraper.py", line 175, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,037,266 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-09 16:50:49.847023
+Traceback (most recent call last):
+  File "idaweb_radiation_scraper.py", line 140, in <module>
+    driver.find_element_by_xpath("//option[@value='radiation']").click() # Param. Group = radiation
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-09 16:50:52.081199
+Traceback (most recent call last):
+  File "idaweb_radiation_scraper.py", line 140, in <module>
+    driver.find_element_by_xpath("//option[@value='radiation']").click() # Param. Group = radiation
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-09 16:50:53.214080
+Traceback (most recent call last):
+  File "idaweb_radiation_scraper.py", line 139, in <module>
+    driver.get("https://gate.meteoswiss.ch/idaweb/system/orderWizard.do?method=parameter")
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 248, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-12 14:12:38.987503
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 165, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : You may select a maximum of 2,000,000 values per order. Presently you have selected 2,105,822 values. Please reduce your selection.}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-14 14:05:02.727316
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 133, in <module>
+    driver.get("https://gate.meteoswiss.ch/idaweb/system/orderWizard.do?method=parameter")
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 248, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-14 14:09:34.413932
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 133, in <module>
+    driver.get("https://gate.meteoswiss.ch/idaweb/system/orderWizard.do?method=parameter")
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 248, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-16 13:25:50.348593
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 145, in <module>
+    driver.find_element_by_xpath("//input[@value='Select all']").click()
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 77, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 494, in _execute
+    return self._parent.execute(command, params)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 234, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 407, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 439, in _request
+    resp = self._conn.getresponse()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/ema/anaconda3/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+ERROR:root:main exception - 2016-12-16 13:58:11.508336
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 167, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : Sie können pro Bestellung maximal 200 Messreihen selektieren. Sie haben aktuell 208 Messreihen ausgewählt. Bitte reduzieren Sie ihre Auswahl. }
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-20 07:21:04.621084
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 177, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : Sie können pro Bestellung maximal 200 Messreihen selektieren. Sie haben aktuell 204 Messreihen ausgewählt. Bitte reduzieren Sie ihre Auswahl. }
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-20 07:32:40.140637
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 157, in <module>
+    driver.get("https://gate.meteoswiss.ch/idaweb/system/orderWizard.do?method=parameter")
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 248, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-20 10:31:14.740249
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 191, in <module>
+    driver.find_element_by_xpath("//input[@name='orderText']").send_keys(ordername)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : Sie können pro Bestellung maximal 200 Messreihen selektieren. Sie haben aktuell 201 Messreihen ausgewählt. Bitte reduzieren Sie ihre Auswahl. }
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-20 11:37:26.467151
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 210, in <module>
+    if (check_exists_by_xpath(stat_xpath)):
+  File "idaweb_temperature_scraper.py", line 49, in check_exists_by_xpath
+    driver.find_element_by_xpath(xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 234, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 407, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 439, in _request
+    resp = self._conn.getresponse()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/home/ema/anaconda3/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/ema/anaconda3/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+ERROR:root:main exception - 2016-12-20 11:40:24.265699
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 211, in <module>
+    driver.find_element_by_xpath(stat_xpath).click() # Deselect station
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-20 11:42:10.012234
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 211, in <module>
+    driver.find_element_by_xpath(stat_xpath).click() # Deselect station
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-20 11:45:06.333729
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 212, in <module>
+    driver.find_element_by_xpath(stat_xpath).click() # Deselect station
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
+ERROR:root:main exception - 2016-12-20 11:46:13.619397
+Traceback (most recent call last):
+  File "idaweb_temperature_scraper.py", line 212, in <module>
+    driver.find_element_by_xpath(stat_xpath).click() # Deselect station
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/ema/anaconda3/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.22.397932 (282ed7cf89cf0053b6542e0d0f039d4123bbb6ad),platform=Linux 4.4.0-38-generic x86_64)
+
