@@ -1,0 +1,125 @@
+Federal Office of Meteorology and Climatology, MeteoSwiss
+Operation Center 1
+Postfach 257
+8058 Zürich-Flughafen
+
+stn yyyyMMddHHmm
+
+stn Station abbreviation
+y   Year
+M   Month
+d   Day
+H   Hour
+m   Minute
+
+Times in UTC:            0040 UTC = 02:40 Summer time
+                                  = 01:40 Winter time
+
+Observation interval for hourly values, unless otherwise indicated in the parameter descrip-tion: HH  = (HH-1):41 - HH:40
+Example: 13 = observation period 12:41 to 13:40 
+
+Missing values are marked with '-'
+
+Quality information: The key to quality information can be found under: https://gate.meteoswiss.ch/idaweb/text/datenqualitaet_legende_de.pdf
+
+ 
+
+
+
+Stations
+--------
+stn       Name                                 Parameter        Data source                                        Longitude/Latitude       Coordinates [km] Elevation [m]
+COM       Acquarossa / Comprovasco             gor000za         MeteoSchweiz                                       8°56'/46°28'             714998/146440    575
+AIG       Aigle                                gor000za         MeteoSchweiz                                       6°55'/46°20'             560400/130713    381
+ALT       Altdorf                              gor000za         MeteoSchweiz                                       8°37'/46°53'             690174/193558    438
+ANT       Andermatt                            gor000za         MeteoSchweiz                                       8°35'/46°38'             687444/165044    1438
+RAG       Bad Ragaz                            gor000za         MeteoSchweiz                                       9°30'/47°01'             756909/209350    496
+BAS       Basel / Binningen                    gor000za         MeteoSchweiz                                       7°35'/47°32'             610911/265600    316
+WSLBAF    Beatenberg Freiland                  gor000za         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 7°46'/46°42'             625475/172205    1560
+BER       Bern / Zollikofen                    gor000za         MeteoSchweiz                                       7°28'/46°59'             601929/204409    552
+WSLBTF    Bettlachstock Freiland               gor000za         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 7°25'/47°13'             598396/230398    1100
+BEZ       Beznau                               gor000za         MeteoSchweiz                                       8°14'/47°33'             659808/267693    325
+BUS       Buchs / Aarau                        gor000za         MeteoSchweiz                                       8°05'/47°23'             648389/248365    386
+FRE       Bullet / La Frétaz                   gor000za         MeteoSchweiz                                       6°35'/46°50'             534221/188081    1205
+WSLCLF    Celerina Freiland                    gor000za         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 9°53'/46°30'             788051/151960    1865
+CHA       Chasseral                            gor000za         MeteoSchweiz                                       7°03'/47°08'             570847/220158    1599
+CHM       Chaumont                             gor000za         MeteoSchweiz                                       6°59'/47°03'             565060/211006    1136
+WSLCIF    Chironico Freiland                   gor000za         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 8°49'/46°27'             705605/144819    1380
+CHD       Château-d'Oex                        gor000za         MeteoSchweiz                                       7°08'/46°29'             577039/147654    1029
+CIM       Cimetta                              gor000za         MeteoSchweiz                                       8°47'/46°12'             704433/117452    1661
+GSB       Col du Grand St-Bernard              gor000za         MeteoSchweiz                                       7°10'/45°52'             579200/79720     2472
+CRM       Cressier                             gor000za         MeteoSchweiz                                       7°04'/47°03'             571160/210800    431
+DAV       Davos                                gor000za         MeteoSchweiz                                       9°51'/46°49'             783514/187457    1594
+EGO       Egolzwil                             gor000za         MeteoSchweiz                                       8°00'/47°11'             642913/225540    521
+ELM       Elm                                  gor000za         MeteoSchweiz                                       9°11'/46°55'             732265/198425    958
+ENG       Engelberg                            gor000za         MeteoSchweiz                                       8°25'/46°49'             674156/186097    1035
+EVO       Evolène / Villa                      gor000za         MeteoSchweiz                                       7°31'/46°07'             605415/106740    1825
+FAH       Fahy                                 gor000za         MeteoSchweiz                                       6°56'/47°25'             562458/252676    596
+GVE       Genève-Cointrin                      gor000za         MeteoSchweiz                                       6°08'/46°15'             498904/122631    412
+GIH       Giswil                               gor000za         MeteoSchweiz                                       8°11'/46°51'             657320/188980    471
+GLA       Glarus                               gor000za         MeteoSchweiz                                       9°04'/47°02'             723752/210567    516
+GRE       Grenchen                             gor000za         MeteoSchweiz                                       7°25'/47°11'             598216/225348    430
+GRH       Grimsel Hospiz                       gor000za         MeteoSchweiz                                       8°20'/46°34'             668583/158215    1980
+GRC       Grächen                              gor000za         MeteoSchweiz                                       7°50'/46°12'             630738/116062    1605
+GOE       Gösgen                               gor000za         MeteoSchweiz                                       7°58'/47°22'             640417/245937    380
+GUE       Gütsch ob Andermatt                  gor000za         MeteoSchweiz                                       8°37'/46°39'             690050/167475    2283
+GUT       Güttingen                            gor000za         MeteoSchweiz                                       9°17'/47°36'             738419/273960    440
+HOE       Hörnli                               gor000za         MeteoSchweiz                                       8°56'/47°22'             713515/247755    1144
+INT       Interlaken                           gor000za         MeteoSchweiz                                       7°52'/46°40'             633019/169093    577
+JUN       Jungfraujoch                         gor000za         MeteoSchweiz                                       7°59'/46°33'             641930/155275    3580
+WSLJUF    Jussy Freiland                       gor000za         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 6°17'/46°14'             511140/120341    497
+KOP       Koppigen                             gor000za         MeteoSchweiz                                       7°36'/47°07'             612662/218664    484
+CDF       La Chaux-de-Fonds                    gor000za         MeteoSchweiz                                       6°48'/47°05'             550919/214861    1018
+DOL       La Dôle                              gor000za         MeteoSchweiz                                       6°06'/46°25'             497061/142362    1669
+LAG       Langnau i.E.                         gor000za         MeteoSchweiz                                       7°48'/46°56'             628005/198792    745
+WSLLAF    Lausanne Freiland                    gor000za         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 6°39'/46°34'             539450/156750    790
+MLS       Le Moléson                           gor000za         MeteoSchweiz                                       7°01'/46°33'             567723/155072    1974
+OTL       Locarno / Monti                      gor000za         MeteoSchweiz                                       8°47'/46°10'             704160/114350    366
+LUG       Lugano                               gor000za         MeteoSchweiz                                       8°58'/46°00'             717873/95884     273
+LUZ       Luzern                               gor000za         MeteoSchweiz                                       8°18'/47°02'             665540/209848    454
+MAG       Magadino / Cadenazzo                 gor000za         MeteoSchweiz                                       8°56'/46°10'             715479/113161    203
+MER       Meiringen                            gor000za         MeteoSchweiz                                       8°10'/46°44'             655844/175930    588
+MVE       Montana                              gor000za         MeteoSchweiz                                       7°28'/46°18'             601706/127482    1427
+MOE       Möhlin                               gor000za         MeteoSchweiz                                       7°53'/47°34'             633053/269147    344
+MUB       Mühleberg                            gor000za         MeteoSchweiz                                       7°17'/46°58'             587788/202478    479
+MSK       Mühleberg / Stockeren                gor000za         MeteoSchweiz                                       7°17'/46°57'             588150/200125    775
+NAS       Naluns / Schlivera                   gor000za         MeteoSchweiz                                       10°16'/46°49'            815374/188987    2400
+NAP       Napf                                 gor000za         MeteoSchweiz                                       7°56'/47°00'             638132/206078    1403
+WSLNAF    Nationalpark Freiland                gor000za         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 10°14'/46°40'            813588/171704    1899
+NEU       Neuchâtel                            gor000za         MeteoSchweiz                                       6°57'/47°00'             563086/205559    485
+WSLNEF    Neunkrich Freiland                   gor000za         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 8°32'/47°41'             681661/282699    463
+WSLNOF    Novaggio Freiland                    gor000za         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 8°50'/46°01'             708100/97975     1055
+CGI       Nyon / Changins                      gor000za         MeteoSchweiz                                       6°14'/46°24'             506880/139573    455
+WSLOTF    Othmarsingen Freiland                gor000za         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 8°13'/47°24'             659217/250228    461
+PAY       Payerne                              gor000za         MeteoSchweiz                                       6°57'/46°49'             562127/184612    490
+PIL       Pilatus                              gor000za         MeteoSchweiz                                       8°15'/46°59'             661910/203410    2106
+COV       Piz Corvatsch                        gor000za         MeteoSchweiz                                       9°49'/46°25'             783150/143521    3302
+PMA       Piz Martegnas                        gor000za         MeteoSchweiz                                       9°32'/46°35'             760261/160570    2670
+PLF       Plaffeien                            gor000za         MeteoSchweiz                                       7°16'/46°45'             586808/177400    1042
+PUY       Pully                                gor000za         MeteoSchweiz                                       6°40'/46°31'             540811/151514    455
+ROE       Robièi                               gor000za         MeteoSchweiz                                       8°31'/46°27'             682587/144091    1896
+RUE       Rünenberg                            gor000za         MeteoSchweiz                                       7°53'/47°26'             633246/253845    611
+SBE       S. Bernardino                        gor000za         MeteoSchweiz                                       9°11'/46°28'             734112/147296    1638
+SAM       Samedan                              gor000za         MeteoSchweiz                                       9°53'/46°32'             787210/155700    1708
+WSLSCF    Schänis Freiland                     gor000za         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 9°04'/47°09'             722925/223520    626
+SPF       Schüpfheim                           gor000za         MeteoSchweiz                                       8°01'/46°57'             643684/199710    742
+SIA       Segl-Maria                           gor000za         MeteoSchweiz                                       9°46'/46°26'             778574/144976    1804
+SIO       Sion                                 gor000za         MeteoSchweiz                                       7°20'/46°13'             591630/118575    482
+STG       St. Gallen                           gor000za         MeteoSchweiz                                       9°24'/47°26'             747865/254588    775
+SBO       Stabio                               gor000za         MeteoSchweiz                                       8°56'/45°51'             716050/77966     353
+SAE       Säntis                               gor000za         MeteoSchweiz                                       9°21'/47°15'             744200/234920    2502
+VAB       Valbella                             gor000za         MeteoSchweiz                                       9°33'/46°45'             761634/180385    1569
+VIS       Visp                                 gor000za         MeteoSchweiz                                       7°51'/46°18'             631149/128020    639
+WSLVSF    Visp Freiland                        gor000za         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 7°51'/46°18'             631125/128000    640
+WSLVOF    Vordemwald Freiland                  gor000za         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 7°55'/47°16'             635750/235450    480
+WFJ       Weissfluhjoch                        gor000za         MeteoSchweiz                                       9°48'/46°50'             780614/189634    2691
+WYN       Wynau                                gor000za         MeteoSchweiz                                       7°47'/47°15'             626400/233850    422
+REH       Zürich / Affoltern                   gor000za         MeteoSchweiz                                       8°31'/47°26'             681428/253545    443
+SMA       Zürich / Fluntern                    gor000za         MeteoSchweiz                                       8°34'/47°23'             685116/248065    555
+KLO       Zürich / Kloten                      gor000za         MeteoSchweiz                                       8°32'/47°29'             682710/259338    426
+
+Parameter
+---------
+          Unit                                 Description
+gor000za  W/m²                                 Global radiation; standard deviation
+
