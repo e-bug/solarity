@@ -1,7 +1,13 @@
 from pygeocoder import Geocoder as geo
 import googlemaps
 
-gmaps = googlemaps.Client(key='AIzaSyCwM1fpwwYQnieBI4iOjLIW-VeXBBsy5tI')
+keyFile = 'googleMaps.key'
+
+with open(keyFile) as fp:
+    for line in fp:
+        myKey = line
+
+gmaps = googlemaps.Client(key = myKey)
 
 # returns coordinates with input address is valid and returns (0,0) if input address is invalid
 def getCoordinates(address):
