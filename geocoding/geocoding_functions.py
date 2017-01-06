@@ -1,26 +1,35 @@
 from pygeocoder import Geocoder as geo
+import googlemaps
 
-def is_address_valid(address):
-    """
-    Check if the passed address is valid.
-    :param address: string representing a street address. E.g., "Avenue du Temple 3, Renens, Switzerland"
-    :return: True if the address is valid, False otherwise
-    """
-    result = False
+gmaps = googlemaps.Client(key='AIzaSyCwM1fpwwYQnieBI4iOjLIW-VeXBBsy5tI')
+
+# returns coordinates with input address is valid and returns (0,0) if input address is invalid
+def getCoordinates(address):
+    # Try with pygeocoder
     try:
-        result = geo.geocode(address).valid_address
+        geocode_result = geo.geocode(address, region = 'ch')
+        return geocode_result.coordinates
     except:
         pass
-    return result
-
-
-def get_coordinates(address):
-    """
-    Retrieve coordinates of given street address.
-    :param address: string representing a street address. E.g., "Avenue du Temple 3, Renens, Switzerland"
-    :return: a tuple (latitude, longtitude) corresponding to coordinates of a valid address, None otherwise
-    """
-    if is_address_valid(address):
-        return geo.geocode(address).coordinates
+    
+    # Try with Google Maps API
+    geocode_result = gmaps.geocode(address, region = 'ch')
+    if(len(geocode_result) > 0):
+        coordinates = geocode_result[0]['geometry']['location']
+        return (coordinates['lat'], coordinates['lng'])
+    
+    # Try with Google Maps with only the street name
+    street_name = address.split(',')[0]
+    geocode_result = gmaps.geocode(street_name, region = 'ch')
+    if(len(geocode_result) > 0):
+        coordinates = geocode_result[0]['geometry']['location']
+        return (coordinates['lat'], coordinates['lng'])
     else:
-        return None
+        return (0,0)        
+        
+"""
+# returns a tuple (latitude, longtitude) corresponding to coordinates of a valid address
+# undefined behavior if address is not valid
+def getCoordinates(address):
+	return geo.geocode(address).coordinates
+"""
