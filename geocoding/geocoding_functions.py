@@ -1,6 +1,7 @@
 from pygeocoder import Geocoder as geo
 import googlemaps
 
+
 keyFile = 'googleMaps.key'
 
 with open(keyFile) as fp:
