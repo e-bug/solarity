@@ -11,15 +11,14 @@ def hello():
 def index():
 	return render_template('index.html')
 
-@app.route('/signUp')
-def signUp():
-    return render_template('signUp.html')
-
-@app.route('/signUpUser', methods=['POST'])
-def signUpUser():
-    user =  request.form['username'];
-    password = request.form['password'];
-    return json.dumps({'status':'OK','user':user,'pass':password});
+@app.route('/doStuff', methods=['POST'])
+def doStuff():
+	#user = request.get_json().get('name', '')
+	#return json.dumps({'user':user})
+	address =  request.form['address']
+	bill = request.form['bill']
+	roof = request.form['roof']
+	return json.dumps({'address':address, 'bill':bill, 'roof':roof})
 
 if __name__=="__main__":
     app.run()

@@ -46,39 +46,46 @@
   </header>
 
   <div id="main-content" class="container">
-    <div class="jumbotron">
-      <!-- <div class="frame">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2745.450505320813!2d6.5654066515601635!3d46.51898647902503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c30fe7ab739e3%3A0x6051b4607fcb144a!2sEPFL%2C+1015+Lausanne!5e0!3m2!1sen!2sch!4v1484685297071" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen>
-        </iframe> -->
+    <form class="form-signin" action="doStuff" role="form">
+      <div class="jumbotron">
+        <!-- <div class="frame">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2745.450505320813!2d6.5654066515601635!3d46.51898647902503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c30fe7ab739e3%3A0x6051b4607fcb144a!2sEPFL%2C+1015+Lausanne!5e0!3m2!1sen!2sch!4v1484685297071" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen>
+          </iframe> -->
 
-      <div id="jumbo-img">  
-        <div class="input-group input-group-lg" id="address-div">
-          <span class="input-group-addon" id="basic-addon1">Enter an address</span>
-          <input type="text" class="form-control" placeholder="Route Cantonale, 1015 Lausanne" aria-describedby="basic-addon1" autofocus>
+        <div id="jumbo-img">  
+          <div class="input-group input-group-lg" id="address-div">
+            <span class="input-group-addon" id="basic-addon1">Enter an address</span>
+            <input type="text" class="form-control" placeholder="Route Cantonale, 1015 Lausanne" aria-describedby="basic-addon1" autofocus id="address-input" name="address">
+            <button class="btn btn-lg btn-primary btn-block" type="button">Press Me!</button>
+          </div>
         </div>
       </div>
-    </div>
 
 
-    <div id="params" class="row">
-      <h2>
-        Fine-tune your information. 
-      </h2><br>
-      <div class="col-sm-6 col-xs-12">
-        <div id="bill-div">
-          <span>What's your average monthly electric bill?</span>
+      <div id="params" class="row">
+        <h2>
+          Fine-tune your information. 
+        </h2><br>
+        <div class="col-sm-6 col-xs-12">
+          <div id="bill-div">
+            <span>What's your average monthly electric bill?</span>
+            <br/><br/>
+            <input type="text" class="form-control" placeholder="20 CHF" aria-describedby="basic-addon1" autofocus id="bill-input" name="bill">
+          </div>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <div id="roof-div">
+            <span>What's your roof area?</span>
+            <br/><br/>
+            <input type="text" class="form-control" placeholder="40 m^2" aria-describedby="basic-addon1" autofocus id="roof-input" name="roof">
+            <!-- <div class="input-group input-group-lg" id="roof-div-input">
+              <input type="text" class="form-control" placeholder="100" aria-describedby="basic-addon2">
+              <span class="input-group-addon" id="basic-addon2">m2</span>
+            </div> -->
+          </div>
         </div>
       </div>
-      <div class="col-sm-6 col-xs-12">
-        <div id="roof-div">
-          <span>What's your roof area?</span>
-          <!-- <div class="input-group input-group-lg" id="roof-div-input">
-            <input type="text" class="form-control" placeholder="100" aria-describedby="basic-addon2">
-            <span class="input-group-addon" id="basic-addon2">m2</span>
-          </div> -->
-        </div>
-      </div>
-    </div>
+    </form>
 
   </div><!-- End of #main-content -->
 
@@ -142,5 +149,6 @@
   <script src="static/js/jquery-2.1.4.min.js"></script>
   <script src="static/js/bootstrap.min.js"></script>
   <script src="static/js/script.js"></script>
+  <script src="static/js/python-script.js"></script>
 </body>
 </html>
