@@ -23,17 +23,21 @@ def getCoordinates(address):
         return geocode_result.coordinates
     except:
         # Try with Google Maps API
-        geocode_result = gmaps.geocode(address, region = 'ch')
-        if(len(geocode_result) > 0):
-            coordinates = geocode_result[0]['geometry']['location']
-            return (coordinates['lat'], coordinates['lng'])
-    
-        # Try with Google Maps with only the street name
-        street_name = address.split(',')[0]
-        geocode_result = gmaps.geocode(street_name, region = 'ch')
-        if(len(geocode_result) > 0):
-            coordinates = geocode_result[0]['geometry']['location']
-            return (coordinates['lat'], coordinates['lng'])
-        else:
-            return None        
+        try:
+            geocode_result = gmaps.geocode(address, region = 'ch')
+            if(len(geocode_result) > 0):
+                coordinates = geocode_result[0]['geometry']['location']
+                return (coordinates['lat'], coordinates['lng'])
+        except:
+            # Try with Google Maps with only the street name
+            try:
+                street_name = address.split(',')[0]
+                geocode_result = gmaps.geocode(street_name, region = 'ch')
+                if(len(geocode_result) > 0):
+                    coordinates = geocode_result[0]['geometry']['location']
+                    return (coordinates['lat'], coordinates['lng'])
+                else:
+                    return None
+            except:
+                return None
         
