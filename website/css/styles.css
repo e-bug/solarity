@@ -1,0 +1,433 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff; /*#4286f4;*/
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #ffffff;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/solar-panel-home-75x60.jpg') no-repeat;
+  width: 75px; 
+  height: 60px; 
+  margin: 10px 15px 10px 0;
+}
+
+#logo-ada {
+  background: url('../images/ada-logo88x60.png') no-repeat;
+  width: 88px; 
+  height: 60px;
+  margin: 10px 15px 10px 0;
+}
+
+#logo-epfl {
+  background: url('../images/125px-logo_epfl.png') no-repeat;
+  width: 125px; 
+  height: 60px;
+  margin: 10px 0px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 32px;
+}
+.navbar-brand h1 { /* Project solarity */
+  font-family: 'Ubuntu', sans-serif;
+  color: #818284;
+  font-size: 1.5em;
+  /*text-transform: uppercase;*/
+  /*font-weight: bold;*/
+  /*text-shadow: 1px 1px 1px #222;*/
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand h1 span { /* ADA */
+  font-weight: bold;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#header-line {
+  background: linear-gradient(to right,#FAD961,#F76B1C);
+  width: 100%; 
+  height: 3px;
+}
+
+#address-div {
+  width: 50%;
+}
+
+
+/* END HEADER */
+
+
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 30px #818284;
+  border: 2px solid #818284;
+  padding: 0;
+}
+#jumbo-img {
+  height: 100%;
+  width: 100%;
+}
+
+
+#bill-div {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+/*  border: 2px solid #818284;*/  
+box-shadow: 0 0 5px #818284;
+/*overflow: hidden;*/
+}
+
+#bill-div span {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+}
+#bill-div:hover {
+  box-shadow: 0 1px 5px 1px #000;
+}
+
+#roof-div {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+/*  border: 2px solid #818284;*/  
+box-shadow: 0 0 5px #818284;
+/*overflow: hidden;*/
+}
+
+#roof-div span {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+}
+#roof-div:hover {
+  box-shadow: 0 1px 5px 1px #000;
+}
+
+#params {
+  align-content: center;
+  /*background: #f00;*/
+}
+
+#params h2 {
+  text-align: center;
+  color: #F76B1C;
+}
+
+/* END HOME PAGE */
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  /* Home Page */ 
+  #jumbo-img {
+    background: url('../images/map_1136.png') no-repeat;
+    height: 771px;
+  }
+  /* End Home Page */
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/map_936.png') no-repeat;
+    height: 635px;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/map_716.png') no-repeat;
+    height: 486px;
+  }
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  /* End Header */
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
+  /* Home Page */
+  .container .jumbotron {
+    width: 360px;
+    margin-top: 30px;
+    align-self: center;
+
+  }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
+
+
+/* FOOTER */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'Oxygen', sans-serif;
+}
+[data-icon]:before {
+  font-family: 'Oxygen', sans-serif;
+  content: attr(data-icon);
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  text-decoration: none;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -ms-transition: all .2s linear;
+  -o-transition:  all .2s linear;
+  transition: all .2s linear;
+}
+.clear {
+  clear: both;
+}
+
+footer {
+  background-color: #2E3639;
+  position: relative;
+  z-index: 1;
+}
+
+footer .splitter {
+  background: linear-gradient(to right,#FAD961,#F76B1C);
+  width: 100%; 
+  height: 3px;
+}
+
+footer > ul {
+  list-style: none outside none;
+  margin: 0 auto;
+  max-width: 1200px;
+  overflow: hidden;
+  padding: 25px 0;
+  position: relative;
+  width: 95%;
+}
+footer > ul li {
+  float: left;
+  padding: 20px 15px;
+  width: 33.3%;
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+}
+footer > ul li:first-child {
+  padding-left: 0;
+}
+footer > ul li:nth-child(3) {
+  padding-right: 0;
+}
+footer > ul li .icon {
+  color: #999999;
+  float: left;
+  font-size: 80px;
+  line-height: 80px;
+}
+footer > ul li .text {
+  color: #848889;
+  font-size: 13px;
+  line-height: 20px;
+  margin-left: 105px;
+  position: relative;
+  text-align: justify;
+}
+.text h4 {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.text a {
+  border-bottom: 1px dotted transparent;
+  color: #FFDD00;
+  font-weight: bold;
+}
+.text a:hover {
+  border-color: #FFDD00;
+}
+
+footer .bar {
+  background-color: #1E2629;
+  padding: 20px 0;
+}
+footer .bar-wrap {
+  font-size: 12px;
+  margin: 0 auto;
+  max-width: 1200px;
+  position: relative;
+  width: 95%;
+}
+.links {
+  float: left;
+  list-style: none outside none;
+  position: relative;
+}
+.links li {
+  float: left;
+  margin-right: 10px;
+}
+.links a {
+  color: #778888;
+}
+.links a:hover {
+  color: #FFFFFF;
+}
+
+.social {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.social a {
+  color: #778888;
+  margin-left: 20px;
+}
+.social a:hover {
+  color: #FFFFFF;
+}
+.social .icon {
+  display: inline-block;
+  font-size: 36px;
+  margin-right: 5px;
+  vertical-align: middle;
+  -webkit-transition: -webkit-transform .3s linear;
+  -moz-transition: -moz-transform .3s linear;
+  -ms-transition: -ms-transform .3s linear;
+  -o-transition:  -o-transform .3s linear;
+  transition: transform .3s linear;
+}
+.social a:hover  .icon {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.social .info {
+  display: inline-block;
+  vertical-align: middle;
+}
+.social .info .follow {
+  display: block;
+}
+.social .info .num {
+  display: block;
+}
+.copyright {
+  color: #778888;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 1000px){
+  .links, .social, .copyright{
+    float:none;
+    text-align:center;
+  }
+  .social {
+    position:relative;
+    margin:10px 0;
+  }
+  .links li {
+    display:inline-block;
+    float:none;
+  }
+  .bar {
+    position:relative;
+  }
+  .bar-wrap {
+    margin-bottom:0;
+  }
+}
+@media screen and (max-width: 835px)  {
+  footer > ul li {
+  float:none;
+  width:auto;
+  }
+}
+@media screen and (max-width: 768px)  {
+  .links li {
+    margin-right:5px;
+  }
+}
+
+/* END FOOTER */
