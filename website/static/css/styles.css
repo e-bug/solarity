@@ -96,7 +96,7 @@ input[type="color"]:focus,
   margin-left: 0;
   border-radius: 0;
   background-color: #818284;
-  /*box-shadow: 0 1px 1px #FAD961;*/
+  border-color: #818284;
 }
 #basic-addon1 {
   border-radius: 0;

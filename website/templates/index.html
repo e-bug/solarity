@@ -10,19 +10,22 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  	<link rel="stylesheet" href="static/css/leaflet_awesome_markers.css">
+
   </head>
 <body>
   <header>
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a href="index.html" class="pull-left visible-sm visible-md visible-lg">
+          <a href="index" class="pull-left visible-sm visible-md visible-lg">
             <div id="logo-img"></div>
           </a>
 
           <div class="navbar-brand">
-            <a href="index.html"><h1><span>ADA</span> Project Solarity</h1></a>
+            <a href="index"><h1><span>ADA</span> Project Solarity</h1></a>
           </div>
 
           <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
@@ -49,27 +52,13 @@
   <div id="main-content" class="container">
     <form class="form-signin" action="doStuff" method="post" role="form">
       <div class="jumbotron">
-        <!-- <div class="frame">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2745.450505320813!2d6.5654066515601635!3d46.51898647902503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c30fe7ab739e3%3A0x6051b4607fcb144a!2sEPFL%2C+1015+Lausanne!5e0!3m2!1sen!2sch!4v1484685297071" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen>
-          </iframe> -->
-
         <div class="input-group input-group-lg" id="address-div">
           <span class="input-group-addon" id="basic-addon1">Enter an address</span>
           <input type="text" id="address-text" class="form-control" placeholder="Route Cantonale, 1015 Lausanne" aria-describedby="basic-addon1" autofocus id="address-input" name="address">
           <span class="input-group-btn">
           	<button class="btn btn-lg btn-primary btn-block" type="button" id="address-button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>	
           </span>
-          
         </div>
-        
-    	
-		<!-- <div class="input-group">
-	      <input type="text" class="form-control" placeholder="Search for...">
-	      <span class="input-group-btn">
-	        <button class="btn btn-default" type="button">Go!</button>
-	      </span>
-    	</div> 
- -->
         <div id="jumbo-img"></div>
       </div>
 
@@ -160,7 +149,10 @@
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="static/js/jquery-2.1.4.min.js"></script>
   <script src="static/js/bootstrap.min.js"></script>
-  <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
+	
+	<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+	<script src="static/js/leaflet_awesome_markers.js"></script>
+
   <script src="static/js/script.js"></script>
   <script src="static/js/python-script.js"></script>
 </body>
