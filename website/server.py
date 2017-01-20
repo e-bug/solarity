@@ -4,13 +4,15 @@ sys.path.insert(0, '../geocoding')
 
 from flask import Flask, render_template, request, json
 import geocoding_functions as geo_fns
+import threading, webbrowser
 
 app = Flask(__name__)
 
-@app.route('/')
-def hello():
-    return 'Welcome to Python Flask!'
+port = 5000
+url = "http://127.0.0.1:{0}".format(port)
 
+
+@app.route('/')
 @app.route('/index')
 def index():
 	return render_template('index.html')
@@ -29,4 +31,5 @@ def doStuff():
 	# return json.dumps({'address':address, 'bill':bill, 'roof':roof})
 
 if __name__=="__main__":
+    threading.Timer(1.25, lambda: webbrowser.open(url)).start()
     app.run()
