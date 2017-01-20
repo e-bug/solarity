@@ -1,0 +1,143 @@
+TAE       Aadorf / Tänikon                     gre000z0         MeteoSchweiz                                       8°54'/47°29'             710514/259821    539
+COM       Acquarossa / Comprovasco             gre000z0         MeteoSchweiz                                       8°56'/46°28'             714998/146440    575
+ABO       Adelboden                            gre000z0         MeteoSchweiz                                       7°34'/46°30'             609350/149001    1326
+AIG       Aigle                                gre000z0         MeteoSchweiz                                       6°55'/46°20'             560400/130713    381
+ALT       Altdorf                              gre000z0         MeteoSchweiz                                       8°37'/46°53'             690174/193558    438
+ARH       Altenrhein                           gre000z0         MeteoSchweiz                                       9°34'/47°29'             760382/261386    398
+ANT       Andermatt                            gre000z0         MeteoSchweiz                                       8°35'/46°38'             687444/165044    1438
+ARO       Arosa                                gre000z0         MeteoSchweiz                                       9°41'/46°48'             771030/184825    1878
+ARD       Arosa                                gre000z0         MeteoSchweiz                                       9°40'/46°47'             770730/183320    1840
+TSG       Arosa / Tschuggen                    gre000z0         MeteoSchweiz                                       9°40'/46°47'             770100/183500    2040
+RAG       Bad Ragaz                            gre000z0         MeteoSchweiz                                       9°30'/47°01'             756909/209350    496
+BAN       Bantiger                             gre000z0         MeteoSchweiz                                       7°32'/46°59'             606850/202975    941
+BAS       Basel / Binningen                    gre000z0         MeteoSchweiz                                       7°35'/47°32'             610911/265600    316
+WSLBAF    Beatenberg Freiland                  gre000z0         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 7°46'/46°42'             625475/172205    1560
+BER       Bern / Zollikofen                    gre000z0         MeteoSchweiz                                       7°28'/46°59'             601929/204409    552
+WSLBTF    Bettlachstock Freiland               gre000z0         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 7°25'/47°13'             598396/230398    1100
+BEZ       Beznau                               gre000z0         MeteoSchweiz                                       8°14'/47°33'             659808/267693    325
+BIZ       Bischofszell                         gre000z0         MeteoSchweiz                                       9°14'/47°30'             735325/262285    470
+BIE       Bière                                gre000z0         MeteoSchweiz                                       6°21'/46°31'             515888/153206    683
+BLA       Blatten, Lötschental                 gre000z0         MeteoSchweiz                                       7°49'/46°25'             629564/141084    1538
+BOL       Boltigen                             gre000z0         MeteoSchweiz                                       7°23'/46°37'             595831/163587    820
+BUS       Buchs / Aarau                        gre000z0         MeteoSchweiz                                       8°05'/47°23'             648389/248365    386
+BUF       Buffalora                            gre000z0         MeteoSchweiz                                       10°16'/46°39'            816494/170225    1968
+FRE       Bullet / La Frétaz                   gre000z0         MeteoSchweiz                                       6°35'/46°50'             534221/188081    1205
+WSLCLF    Celerina Freiland                    gre000z0         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 9°53'/46°30'             788051/151960    1865
+CEV       Cevio                                gre000z0         MeteoSchweiz                                       8°36'/46°19'             689688/130565    417
+CHZ       Cham                                 gre000z0         MeteoSchweiz                                       8°28'/47°11'             677758/226878    442
+CHA       Chasseral                            gre000z0         MeteoSchweiz                                       7°03'/47°08'             570847/220158    1599
+CHM       Chaumont                             gre000z0         MeteoSchweiz                                       6°59'/47°03'             565060/211006    1136
+WSLCIF    Chironico Freiland                   gre000z0         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 8°49'/46°27'             705605/144819    1380
+CHU       Chur                                 gre000z0         MeteoSchweiz                                       9°32'/46°52'             759465/193152    556
+CHD       Château-d'Oex                        gre000z0         MeteoSchweiz                                       7°08'/46°29'             577039/147654    1029
+CIM       Cimetta                              gre000z0         MeteoSchweiz                                       8°47'/46°12'             704433/117452    1661
+GSB       Col du Grand St-Bernard              gre000z0         MeteoSchweiz                                       7°10'/45°52'             579200/79720     2472
+CMA       Crap Masegn                          gre000z0         MeteoSchweiz                                       9°11'/46°51'             732820/189380    2480
+CRM       Cressier                             gre000z0         MeteoSchweiz                                       7°04'/47°03'             571160/210800    431
+DAV       Davos                                gre000z0         MeteoSchweiz                                       9°51'/46°49'             783514/187457    1594
+DEM       Delémont                             gre000z0         MeteoSchweiz                                       7°21'/47°21'             593269/244543    439
+DIS       Disentis / Sedrun                    gre000z0         MeteoSchweiz                                       8°51'/46°42'             708188/173789    1197
+EBK       Ebnat-Kappel                         gre000z0         MeteoSchweiz                                       9°07'/47°16'             726346/237176    623
+EGH       Eggishorn                            gre000z0         MeteoSchweiz                                       8°06'/46°26'             650279/141897    2893
+EGO       Egolzwil                             gre000z0         MeteoSchweiz                                       8°00'/47°11'             642913/225540    521
+EIN       Einsiedeln                           gre000z0         MeteoSchweiz                                       8°45'/47°08'             699983/221068    910
+ELM       Elm                                  gre000z0         MeteoSchweiz                                       9°11'/46°55'             732265/198425    958
+ENG       Engelberg                            gre000z0         MeteoSchweiz                                       8°25'/46°49'             674156/186097    1035
+EVI       Evionnaz                             gre000z0         MeteoSchweiz                                       7°02'/46°11'             568197/114693    482
+EVO       Evolène / Villa                      gre000z0         MeteoSchweiz                                       7°31'/46°07'             605415/106740    1825
+FAH       Fahy                                 gre000z0         MeteoSchweiz                                       6°56'/47°25'             562458/252676    596
+GRA       Fribourg / Posieux                   gre000z0         MeteoSchweiz                                       7°07'/46°46'             575182/180076    646
+FRU       Frutigen                             gre000z0         MeteoSchweiz                                       7°39'/46°36'             616773/160884    756
+GVE       Genève-Cointrin                      gre000z0         MeteoSchweiz                                       6°08'/46°15'             498904/122631    412
+GIH       Giswil                               gre000z0         MeteoSchweiz                                       8°11'/46°51'             657320/188980    471
+GLA       Glarus                               gre000z0         MeteoSchweiz                                       9°04'/47°02'             723752/210567    516
+GOR       Gornergrat                           gre000z0         MeteoSchweiz                                       7°47'/45°59'             626900/92512     3129
+GRE       Grenchen                             gre000z0         MeteoSchweiz                                       7°25'/47°11'             598216/225348    430
+GRH       Grimsel Hospiz                       gre000z0         MeteoSchweiz                                       8°20'/46°34'             668583/158215    1980
+GRO       Grono                                gre000z0         MeteoSchweiz                                       9°10'/46°15'             733016/124090    323
+GRC       Grächen                              gre000z0         MeteoSchweiz                                       7°50'/46°12'             630738/116062    1605
+GOE       Gösgen                               gre000z0         MeteoSchweiz                                       7°58'/47°22'             640417/245937    380
+GUE       Gütsch ob Andermatt                  gre000z0         MeteoSchweiz                                       8°37'/46°39'             690050/167475    2283
+GUT       Güttingen                            gre000z0         MeteoSchweiz                                       9°17'/47°36'             738419/273960    440
+HLL       Hallau                               gre000z0         MeteoSchweiz                                       8°28'/47°42'             677456/283472    419
+HOE       Hörnli                               gre000z0         MeteoSchweiz                                       8°56'/47°22'             713515/247755    1144
+ILZ       Ilanz                                gre000z0         MeteoSchweiz                                       9°13'/46°47'             735685/181965    698
+INT       Interlaken                           gre000z0         MeteoSchweiz                                       7°52'/46°40'             633019/169093    577
+WSLISF    Isone Freiland                       gre000z0         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 9°00'/46°08'             721217/109514    1149
+JUN       Jungfraujoch                         gre000z0         MeteoSchweiz                                       7°59'/46°33'             641930/155275    3580
+WSLJUF    Jussy Freiland                       gre000z0         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 6°17'/46°14'             511140/120341    497
+KOP       Koppigen                             gre000z0         MeteoSchweiz                                       7°36'/47°07'             612662/218664    484
+BRL       La Brévine                           gre000z0         MeteoSchweiz                                       6°37'/46°59'             536981/203974    1050
+CDF       La Chaux-de-Fonds                    gre000z0         MeteoSchweiz                                       6°48'/47°05'             550919/214861    1018
+DOL       La Dôle                              gre000z0         MeteoSchweiz                                       6°06'/46°25'             497061/142362    1669
+LAG       Langnau i.E.                         gre000z0         MeteoSchweiz                                       7°48'/46°56'             628005/198792    745
+WSLLAF    Lausanne Freiland                    gre000z0         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 6°39'/46°34'             539450/156750    790
+MLS       Le Moléson                           gre000z0         MeteoSchweiz                                       7°01'/46°33'             567723/155072    1974
+LEI       Leibstadt                            gre000z0         MeteoSchweiz                                       8°11'/47°36'             656378/272111    341
+ATT       Les Attelas                          gre000z0         MeteoSchweiz                                       7°16'/46°06'             586862/105305    2730
+DIA       Les Diablerets                       gre000z0         MeteoSchweiz                                       7°12'/46°20'             581914/130622    2964
+OTL       Locarno / Monti                      gre000z0         MeteoSchweiz                                       8°47'/46°10'             704160/114350    366
+LUG       Lugano                               gre000z0         MeteoSchweiz                                       8°58'/46°00'             717873/95884     273
+LUZ       Luzern                               gre000z0         MeteoSchweiz                                       8°18'/47°02'             665540/209848    454
+LAE       Lägern                               gre000z0         MeteoSchweiz                                       8°24'/47°29'             672250/259460    845
+MAG       Magadino / Cadenazzo                 gre000z0         MeteoSchweiz                                       8°56'/46°10'             715479/113161    203
+MAH       Mathod                               gre000z0         MeteoSchweiz                                       6°34'/46°44'             533458/176567    437
+MTR       Matro                                gre000z0         MeteoSchweiz                                       8°55'/46°25'             714263/140943    2171
+MER       Meiringen                            gre000z0         MeteoSchweiz                                       8°10'/46°44'             655844/175930    588
+MVE       Montana                              gre000z0         MeteoSchweiz                                       7°28'/46°18'             601706/127482    1427
+GEN       Monte Generoso                       gre000z0         MeteoSchweiz                                       9°01'/45°56'             722503/87456     1600
+MRP       Monte Rosa-Plattje                   gre000z0         MeteoSchweiz                                       7°49'/45°57'             629149/89520     2885
+MOA       Mosen                                gre000z0         MeteoSchweiz                                       8°14'/47°15'             660127/232851    453
+MTE       Mottec                               gre000z0         MeteoSchweiz                                       7°37'/46°09'             614325/110730    1580
+MOE       Möhlin                               gre000z0         MeteoSchweiz                                       7°53'/47°34'             633053/269147    344
+MUB       Mühleberg                            gre000z0         MeteoSchweiz                                       7°17'/46°58'             587788/202478    479
+MSK       Mühleberg / Stockeren                gre000z0         MeteoSchweiz                                       7°17'/46°57'             588150/200125    775
+NAS       Naluns / Schlivera                   gre000z0         MeteoSchweiz                                       10°16'/46°49'            815374/188987    2400
+NAP       Napf                                 gre000z0         MeteoSchweiz                                       7°56'/47°00'             638132/206078    1403
+WSLNAF    Nationalpark Freiland                gre000z0         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 10°14'/46°40'            813588/171704    1899
+NEU       Neuchâtel                            gre000z0         MeteoSchweiz                                       6°57'/47°00'             563086/205559    485
+WSLNEF    Neunkrich Freiland                   gre000z0         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 8°32'/47°41'             681661/282699    463
+WSLNOF    Novaggio Freiland                    gre000z0         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 8°50'/46°01'             708100/97975     1055
+CGI       Nyon / Changins                      gre000z0         MeteoSchweiz                                       6°14'/46°24'             506880/139573    455
+ORO       Oron                                 gre000z0         MeteoSchweiz                                       6°51'/46°34'             555505/158052    827
+WSLOTF    Othmarsingen Freiland                gre000z0         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 8°13'/47°24'             659217/250228    461
+BEH       Passo del Bernina                    gre000z0         MeteoSchweiz                                       10°01'/46°25'            798422/143020    2260
+PAY       Payerne                              gre000z0         MeteoSchweiz                                       6°57'/46°49'             562127/184612    490
+PIL       Pilatus                              gre000z0         MeteoSchweiz                                       8°15'/46°59'             661910/203410    2106
+COV       Piz Corvatsch                        gre000z0         MeteoSchweiz                                       9°49'/46°25'             783150/143521    3302
+PMA       Piz Martegnas                        gre000z0         MeteoSchweiz                                       9°32'/46°35'             760261/160570    2670
+PLF       Plaffeien                            gre000z0         MeteoSchweiz                                       7°16'/46°45'             586808/177400    1042
+PSI       PSI Würenlingen                      gre000z0         MeteoSchweiz                                       8°14'/47°32'             659540/265600    334
+PUY       Pully                                gre000z0         MeteoSchweiz                                       6°40'/46°31'             540811/151514    455
+ROE       Robièi                               gre000z0         MeteoSchweiz                                       8°31'/46°27'             682587/144091    1896
+RUE       Rünenberg                            gre000z0         MeteoSchweiz                                       7°53'/47°26'             633246/253845    611
+SBE       S. Bernardino                        gre000z0         MeteoSchweiz                                       9°11'/46°28'             734112/147296    1638
+HAI       Salen-Reutenen                       gre000z0         MeteoSchweiz                                       9°01'/47°39'             719099/279046    718
+SAM       Samedan                              gre000z0         MeteoSchweiz                                       9°53'/46°32'             787210/155700    1708
+SHA       Schaffhausen                         gre000z0         MeteoSchweiz                                       8°37'/47°41'             688698/282796    438
+WSLSCF    Schänis Freiland                     gre000z0         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 9°04'/47°09'             722925/223520    626
+SPF       Schüpfheim                           gre000z0         MeteoSchweiz                                       8°01'/46°57'             643684/199710    742
+SIA       Segl-Maria                           gre000z0         MeteoSchweiz                                       9°46'/46°26'             778574/144976    1804
+SIO       Sion                                 gre000z0         MeteoSchweiz                                       7°20'/46°13'             591630/118575    482
+STC       St. Chrischona                       gre000z0         MeteoSchweiz                                       7°41'/47°34'             618695/269036    493
+STG       St. Gallen                           gre000z0         MeteoSchweiz                                       9°24'/47°26'             747865/254588    775
+SMM       Sta. Maria, Val Müstair              gre000z0         MeteoSchweiz                                       10°26'/46°36'            828860/165579    1383
+SBO       Stabio                               gre000z0         MeteoSchweiz                                       8°56'/45°51'             716050/77966     353
+SAE       Säntis                               gre000z0         MeteoSchweiz                                       9°21'/47°15'             744200/234920    2502
+THU       Thun                                 gre000z0         MeteoSchweiz                                       7°35'/46°45'             611200/177640    570
+TIT       Titlis                               gre000z0         MeteoSchweiz                                       8°26'/46°46'             675400/180400    3040
+UEB       Uetliberg                            gre000z0         MeteoSchweiz                                       8°29'/47°21'             679454/245034    854
+ULR       Ulrichen                             gre000z0         MeteoSchweiz                                       8°18'/46°30'             666740/150760    1345
+VAD       Vaduz                                gre000z0         MeteoSchweiz                                       9°31'/47°08'             757718/221696    457
+VAB       Valbella                             gre000z0         MeteoSchweiz                                       9°33'/46°45'             761634/180385    1569
+VEV       Vevey / Corseaux                     gre000z0         MeteoSchweiz                                       6°49'/46°28'             552106/146847    405
+VIO       Vicosoprano                          gre000z0         MeteoSchweiz                                       9°38'/46°21'             768485/135866    1089
+VIS       Visp                                 gre000z0         MeteoSchweiz                                       7°51'/46°18'             631149/128020    639
+WSLVSF    Visp Freiland                        gre000z0         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 7°51'/46°18'             631125/128000    640
+WSLVOF    Vordemwald Freiland                  gre000z0         Eidg. Forschungsanstalt Wald, Schnee und Landschaft 7°55'/47°16'             635750/235450    480
+WFJ       Weissfluhjoch                        gre000z0         MeteoSchweiz                                       9°48'/46°50'             780614/189634    2691
+WYN       Wynau                                gre000z0         MeteoSchweiz                                       7°47'/47°15'             626400/233850    422
+ZER       Zermatt                              gre000z0         MeteoSchweiz                                       7°45'/46°02'             624350/97560     1638
+REH       Zürich / Affoltern                   gre000z0         MeteoSchweiz                                       8°31'/47°26'             681428/253545    443
+SMA       Zürich / Fluntern                    gre000z0         MeteoSchweiz                                       8°34'/47°23'             685116/248065    555
+KLO       Zürich / Kloten                      gre000z0         MeteoSchweiz                                       8°32'/47°29'             682710/259338    426
