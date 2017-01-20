@@ -1,6 +1,5 @@
 $(function(){
 	$('#address-button').click(function(){
-		var address = $('#address-input').val();
 		$.ajax({
 			url: '/doStuff',
 			data: $('form').serialize(),
@@ -9,11 +8,10 @@ $(function(){
 				var obj = JSON.parse(response);
 				//document.getElementById("roof-input").value = 'Your address is ' + obj.address + ' and your bill is ' + obj.bill;
 				if(Object.keys(obj).length == 0) alert("Address is invalid!");
-				// if(obj.latitude == 0 && obj.longtitude == 0) alert("Address is invalid!");
 				else
 				{
-					house = obj.house
-					var map = L.map('jumbo-img').setView([house.latitude, house.longtitude], 11);
+					var house = obj.house;
+					var map = L.map('jumbo-img').setView([house.latitude, house.longitude], 11);
 
 					//possible colors 'red', 'darkred', 'orange', 'green', 'darkgreen', 'blue', 'purple', 'darkpurple', 'cadetblue'
 			    var homeIcon = L.AwesomeMarkers.icon({
@@ -21,9 +19,10 @@ $(function(){
 					        markerColor: 'blue', // see colors above
 					        icon: 'home' //http://fortawesome.github.io/Font-Awesome/icons/
 			    		});
-					var homeMarker = L.marker([house.latitude, house.longtitude], {
-									icon: homeIcon
-							});
+					var homeMarker = L.marker([house.latitude, house.longitude], {icon: homeIcon});
+					var houseLat = parseFloat(Math.round(house.latitude * 100) / 100).toFixed(2);
+					var houseLng =  parseFloat(Math.round(house.longitude * 100) / 100).toFixed(2);
+					homeMarker.bindPopup("<b>Home</b>" + "<br>" + "(" + houseLat + "," + houseLng + ")");
 
 			    var sunIcon = L.AwesomeMarkers.icon({
 					        prefix: 'fa', //font awesome rather than bootstrap
@@ -71,9 +70,10 @@ $(function(){
 					for (var key in obj) {
 						if (typeof(obj[key].name) != 'undefined') {
 							// console.log([obj[key].name, obj[key].latitude, obj[key].longitude])
-							L.marker([obj[key].latitude, obj[key].longitude], {
-									icon: sunIcon
-							}).addTo(map);
+							var name = obj[key].name; 
+							var lat =  parseFloat(Math.round(obj[key].latitude * 100) / 100).toFixed(2);
+							var lng =  parseFloat(Math.round(obj[key].longitude * 100) / 100).toFixed(2);
+							L.marker([lat, lng], {icon: sunIcon}).bindPopup("<b>" + name + "</b>" + "<br>" + "(" + lat + "," + lng + ")").addTo(map);
 						}
 					}
 

@@ -32,7 +32,7 @@ def doStuff():
         return json.dumps(dict())
 
     neighbours_dict = loc_fns.get_k_nearest_neighbours_with_coords(coordinates, k, station_df)
-    neighbours_dict['house'] = {'latitude': coordinates[0], 'longtitude': coordinates[1]}
+    neighbours_dict['house'] = {'latitude': coordinates[0], 'longitude': coordinates[1]}
     return json.dumps(neighbours_dict)
     # bill = request.form['bill']
     # roof = request.form['roof']
