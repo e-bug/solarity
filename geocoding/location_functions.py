@@ -1,4 +1,8 @@
 import numpy as np
+import pickle
+
+
+stations_codename_dict = pickle.load(open('stations_codename.p','rb'))
 
 
 def haversine_distance(x, y):
@@ -115,7 +119,8 @@ def get_k_nearest_neighbours_with_coords(house, k, station_df):
     for i,name in enumerate(names):
         lat = station_df.loc[station_df['name']==name]['lat'].values[0]
         lng = station_df.loc[station_df['name']==name]['lng'].values[0]
-        stations_dict[str(i)] = {'name': name, 'latitude': lat, 'longitude': lng}
+        longname = stations_codename_dict[name]
+        stations_dict[str(i)] = {'name': longname, 'latitude': lat, 'longitude': lng}
 
     return stations_dict
 

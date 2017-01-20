@@ -16,9 +16,16 @@ function readTextFile(file)
     rawFile.send(null);
 }
 
-$(document).ready(function(){
-    $('#address-text').keypress(function(e){
-      if(e.keyCode==13)
-      $('#address-button').click();
-    });
+// $(document).ready(function(){
+//     $('#address-text').keypress(function(e){
+//       if(e.keyCode == 13)
+//       $('#address-button').click();
+//     });
+// });
+
+$("#address-text").keypress(function(event){
+    if(event.keyCode == 13){
+        event.preventDefault();
+        $("#address-button").click();
+    }
 });
