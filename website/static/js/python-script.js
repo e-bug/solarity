@@ -8,24 +8,28 @@ $(function(){
 			success: function(response){
 				var obj = JSON.parse(response);
 				//document.getElementById("roof-input").value = 'Your address is ' + obj.address + ' and your bill is ' + obj.bill;
-				if(obj.latitude == 0 && obj.longtitude == 0) alert("Address is invalid!");
+				if(Object.keys(obj).length == 0) alert("Address is invalid!");
+				// if(obj.latitude == 0 && obj.longtitude == 0) alert("Address is invalid!");
 				else
 				{
-					var map = L.map('jumbo-img').setView([obj.latitude, obj.longtitude], 14);
+					house = obj.house
+					var map = L.map('jumbo-img').setView([house.latitude, house.longtitude], 11);
 
-					// TODO -- ERROR when trying to use Awesome icons
-					//possible colors 'red', 'darkred', 'orange', 'green', 'darkgreen', 'blue', 'purple', 'darkpuple', 'cadetblue'
-			    // var cafeIcon = L.AwesomeMarkers.icon({
-					  //       prefix: 'fa', //font awesome rather than bootstrap
-					  //       markerColor: 'red', // see colors above
-					  //       icon: 'coffee' //http://fortawesome.github.io/Font-Awesome/icons/
-			    // 		});
-					// var cafeMarker = L.marker([obj.latitude, obj.longtitude], {
-					// 				icon: cafeIcon
-					// 		});
+					//possible colors 'red', 'darkred', 'orange', 'green', 'darkgreen', 'blue', 'purple', 'darkpurple', 'cadetblue'
+			    var homeIcon = L.AwesomeMarkers.icon({
+					        prefix: 'fa', //font awesome rather than bootstrap
+					        markerColor: 'blue', // see colors above
+					        icon: 'home' //http://fortawesome.github.io/Font-Awesome/icons/
+			    		});
+					var homeMarker = L.marker([house.latitude, house.longtitude], {
+									icon: homeIcon
+							});
 
-					var homeMarker = L.marker([obj.latitude, obj.longtitude]);
-
+			    var sunIcon = L.AwesomeMarkers.icon({
+					        prefix: 'fa', //font awesome rather than bootstrap
+					        markerColor: 'purple', // see colors above
+					        icon: 'sun-o' //http://fortawesome.github.io/Font-Awesome/icons/
+			    		});
 
 					/* Some tiles */
 					var OpenStreetMap_Mapnik = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -63,6 +67,15 @@ $(function(){
 
 					Stamen_Watercolor.addTo(map);
 					homeMarker.addTo(map);
+
+					for (var key in obj) {
+						if (typeof(obj[key].name) != 'undefined') {
+							// console.log([obj[key].name, obj[key].latitude, obj[key].longitude])
+							L.marker([obj[key].latitude, obj[key].longitude], {
+									icon: sunIcon
+							}).addTo(map);
+						}
+					}
 
 		  	}
 			},

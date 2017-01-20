@@ -96,6 +96,30 @@ def get_k_nearest_neighbours(house, k, station_df):
     return station_df.name[indx]
 
 
+def get_k_nearest_neighbours_with_coords(house, k, station_df):
+    """
+    Retrieve dictionary of the k closest stations to house: {0:{'name': name0, 'latitude': lat0, 'longitude':lng0}}.
+    :param house: a tuple of (lat, lng) of the user's house
+    :param k: the number of stations to pick
+    :param station_df: a pd.DataFrame with columns=[name, lat, lng]
+    :return: sorted pd.Series of the names of the k closest stations
+    """
+    stations = getStationLocations(station_df)
+    sorted_stations = getStationDistances(house, stations)
+    if k > len(stations):
+        k = len(stations)
+    indx = [y[1] for y in sorted_stations[0:k]]
+    names = list(station_df.name[indx])    
+
+    stations_dict = dict()
+    for i,name in enumerate(names):
+        lat = station_df.loc[station_df['name']==name]['lat'].values[0]
+        lng = station_df.loc[station_df['name']==name]['lng'].values[0]
+        stations_dict[str(i)] = {'name': name, 'latitude': lat, 'longitude': lng}
+
+    return stations_dict
+
+
 def get_weights_for_k_nearest(house, k, station_df):
     """
     Retrieve the distance weights associated to the k closest stations to house.
