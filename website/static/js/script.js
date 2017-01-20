@@ -15,3 +15,10 @@ function readTextFile(file)
     }
     rawFile.send(null);
 }
+
+$(document).ready(function(){
+    $('#address-text').keypress(function(e){
+      if(e.keyCode==13)
+      $('#address-button').click();
+    });
+});
