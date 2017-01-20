@@ -26,6 +26,23 @@ input[type="color"]:focus,
   outline: 0 none;
 }
 
+.col-sm-6.col-xs-12 div div {
+  text-align: center;
+  font-size: 1.5em;
+  color: #464a4c;
+  background-color: #eceeef;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.col-sm-6.col-xs-12 div span {
+  font-size: 1.2em;
+  color: #464a4c;
+  /*background-color: #eceeef;*/
+  padding-top: 43px;
+  padding-bottom: 44px;
+}
+
 /** HEADER **/
 #header-nav {
   background-color: #ffffff;
@@ -118,7 +135,7 @@ input[type="color"]:focus,
 
 
 #bill-div {
-  height: 250px;
+  height: 200px;
   width: 100%;
   margin-bottom: 15px;
   position: relative;
@@ -126,7 +143,6 @@ input[type="color"]:focus,
 box-shadow: 0 0 5px #818284;
 /*overflow: hidden;*/
 }
-
 #bill-div span {
   position: absolute;
   width: 100%;
@@ -138,7 +154,7 @@ box-shadow: 0 0 5px #818284;
 }
 
 #roof-div {
-  height: 250px;
+  height: 200px;
   width: 100%;
   margin-bottom: 15px;
   position: relative;
@@ -146,7 +162,6 @@ box-shadow: 0 0 5px #818284;
 box-shadow: 0 0 5px #818284;
 /*overflow: hidden;*/
 }
-
 #roof-div span {
   position: absolute;
   width: 100%;

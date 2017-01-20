@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ADA Project Solarity</title>
-    <link rel="stylesheet" href="static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="static/css/styles.css">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="static/css/styles.css" rel="stylesheet" >
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+		<link href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  	<link rel="stylesheet" href="static/css/leaflet_awesome_markers.css">
+  	<link href="static/css/leaflet_awesome_markers.css" rel="stylesheet">
+  	<link href="static/css/ranger.css" rel="stylesheet"/>
+
 
   </head>
 <body>
@@ -64,21 +66,25 @@
 
 
       <div id="params" class="row">
-        <h2>
-          Fine-tune your information. 
-        </h2><br>
+        <h2>Fine-tune your information</h2>
+        <br>
         <div class="col-sm-6 col-xs-12">
           <div id="bill-div">
-            <span>What's your average monthly electric bill?</span>
-            <br/><br/>
-            <input type="text" class="form-control" placeholder="20 CHF" aria-describedby="basic-addon1" autofocus id="bill-input" name="bill">
+            <div>What's your average monthly electric bill?</div>
+            <!-- <input type="text" class="form-control" placeholder="20 CHF" aria-describedby="basic-addon1" autofocus id="bill-input" name="bill"> -->
+            <span>0 CHF
+            <input type="range" max="100" value="0" class="focused">
+            100 CHF</span>
+
           </div>
         </div>
         <div class="col-sm-6 col-xs-12">
           <div id="roof-div">
-            <span>What's your roof area?</span>
-            <br/><br/>
-            <input type="text" class="form-control" placeholder="40 m^2" aria-describedby="basic-addon1" autofocus id="roof-input" name="roof">
+            <div>What's your roof area?</div>
+            <!-- <input type="text" class="form-control" placeholder="40 m^2" aria-describedby="basic-addon1" autofocus id="roof-input" name="roof"> -->
+            <span>0 m<sup>2</sup>
+            <input type="range" max="100" value="0" class="focused">
+            100 m<sup>2</sup></span>
             <!-- <div class="input-group input-group-lg" id="roof-div-input">
               <input type="text" class="form-control" placeholder="100" aria-describedby="basic-addon2">
               <span class="input-group-addon" id="basic-addon2">m2</span>
@@ -152,6 +158,8 @@
 	
 	<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
 	<script src="static/js/leaflet_awesome_markers.js"></script>
+
+	<script src="static/js/ranger.js" async></script>
 
   <script src="static/js/script.js"></script>
   <script src="static/js/python-script.js"></script>
