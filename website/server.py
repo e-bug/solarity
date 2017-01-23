@@ -24,8 +24,6 @@ def index():
 
 @app.route('/doStuff', methods=['POST'])
 def doStuff():
-    #user = request.get_json().get('name', '')
-    #return json.dumps({'user':user})
     address =  request.form['address']
     coordinates = geo_fns.getCoordinates(address)
     if(coordinates is None):
@@ -33,10 +31,10 @@ def doStuff():
 
     neighbours_dict = loc_fns.get_k_nearest_neighbours_with_coords(coordinates, k, station_df)
     neighbours_dict['house'] = {'latitude': coordinates[0], 'longitude': coordinates[1]}
+
+    neighbours_dict['bill'] = request.form['bill']
+    neighbours_dict['roof'] = request.form['roof']
     return json.dumps(neighbours_dict)
-    # bill = request.form['bill']
-    # roof = request.form['roof']
-    # return json.dumps({'address':address, 'bill':bill, 'roof':roof})
 
 if __name__=="__main__":
     threading.Timer(1, lambda: webbrowser.open(url)).start()

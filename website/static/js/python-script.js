@@ -5,6 +5,17 @@ $(function(){
 			data: $('form').serialize(),
 			type: 'POST',
 			success: function(response){
+				
+				var bill = document.getElementById('bill-input').value
+				var roof = document.getElementById('roof-input').value
+				if(bill == 0 || roof == 0)
+				{
+					alert("Please enter you bill and roof size!");
+					return;
+				}
+
+				document.getElementById('output').style.display = "block";
+
 				var obj = JSON.parse(response);
 				//document.getElementById("roof-input").value = 'Your address is ' + obj.address + ' and your bill is ' + obj.bill;
 				if(Object.keys(obj).length == 0) alert("Address is invalid!");
@@ -14,7 +25,7 @@ $(function(){
 					var map = L.map('jumbo-img').setView([house.latitude, house.longitude], 11);
 
 					//possible colors 'red', 'darkred', 'orange', 'green', 'darkgreen', 'blue', 'purple', 'darkpurple', 'cadetblue'
-			    var homeIcon = L.AwesomeMarkers.icon({
+					var homeIcon = L.AwesomeMarkers.icon({
 					        prefix: 'fa', //font awesome rather than bootstrap
 					        markerColor: 'blue', // see colors above
 					        icon: 'home' //http://fortawesome.github.io/Font-Awesome/icons/
@@ -24,7 +35,7 @@ $(function(){
 					var houseLng =  parseFloat(Math.round(house.longitude * 100) / 100).toFixed(2);
 					homeMarker.bindPopup("<b>Home</b>" + "<br>" + "(" + houseLat + "," + houseLng + ")");
 
-			    var sunIcon = L.AwesomeMarkers.icon({
+					var sunIcon = L.AwesomeMarkers.icon({
 					        prefix: 'fa', //font awesome rather than bootstrap
 					        markerColor: 'purple', // see colors above
 					        icon: 'sun-o' //http://fortawesome.github.io/Font-Awesome/icons/
@@ -69,7 +80,7 @@ $(function(){
 
 					for (var key in obj) {
 						if (typeof(obj[key].name) != 'undefined') {
-							// console.log([obj[key].name, obj[key].latitude, obj[key].longitude])
+							console.log([obj[key].name, obj[key].latitude, obj[key].longitude])
 							var name = obj[key].name; 
 							var lat =  parseFloat(Math.round(obj[key].latitude * 100) / 100).toFixed(2);
 							var lng =  parseFloat(Math.round(obj[key].longitude * 100) / 100).toFixed(2);
@@ -77,7 +88,10 @@ $(function(){
 						}
 					}
 
-		  	}
+					console.log(obj.roof)
+					console.log(obj.bill)
+
+				}
 			},
 			error: function(error){
 				console.log(error);

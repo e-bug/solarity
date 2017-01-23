@@ -73,7 +73,7 @@
             <div>What's your average monthly electric bill?</div>
             <!-- <input type="text" class="form-control" placeholder="20 CHF" aria-describedby="basic-addon1" autofocus id="bill-input" name="bill"> -->
             <span>0 CHF
-            <input type="range" max="100" value="0" class="focused">
+            <input type="range" max="100" value="0" class="focused" id="bill-input" name="bill">
             100 CHF</span>
 
           </div>
@@ -83,7 +83,7 @@
             <div>What's your roof area?</div>
             <!-- <input type="text" class="form-control" placeholder="40 m^2" aria-describedby="basic-addon1" autofocus id="roof-input" name="roof"> -->
             <span>0 m<sup>2</sup>
-            <input type="range" max="100" value="0" class="focused">
+            <input type="range" max="100" value="0" class="focused" id="roof-input" name="roof">
             100 m<sup>2</sup></span>
             <!-- <div class="input-group input-group-lg" id="roof-div-input">
               <input type="text" class="form-control" placeholder="100" aria-describedby="basic-addon2">
@@ -93,6 +93,10 @@
         </div>
       </div>
     </form>
+
+    <div id="output" style="display: none;">
+      <div>Placeholder for output graph + bar plot</div>
+    </div>
 
   </div><!-- End of #main-content -->
 
