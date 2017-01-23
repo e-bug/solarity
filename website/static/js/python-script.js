@@ -79,18 +79,18 @@ $(function(){
 					homeMarker.addTo(map);
 
 					for (var key in obj) {
-						if (typeof(obj[key].name) != 'undefined') {
-							console.log([obj[key].name, obj[key].latitude, obj[key].longitude])
+						if (obj[key].type == 'station') {
 							var name = obj[key].name; 
 							var lat =  parseFloat(Math.round(obj[key].latitude * 100) / 100).toFixed(2);
 							var lng =  parseFloat(Math.round(obj[key].longitude * 100) / 100).toFixed(2);
 							L.marker([lat, lng], {icon: sunIcon}).bindPopup("<b>" + name + "</b>" + "<br>" + "(" + lat + "," + lng + ")").addTo(map);
 						}
+						else if(obj[key].type == 'result') {
+							console.log('percentage: ' + obj[key].percentage + '%')
+							console.log('cost: ' + obj[key].percentage + 'CHF')
+							console.log('break even: ' + obj[key].percentage + 'years')
+						}
 					}
-
-					console.log(obj.roof)
-					console.log(obj.bill)
-
 				}
 			},
 			error: function(error){

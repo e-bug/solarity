@@ -7,7 +7,11 @@ import threading, webbrowser
 
 import geocoding_functions as geo_fns
 import location_functions as loc_fns
+import functions as fns
+import numpy as np
 import pickle
+
+import station_info # maybe not needed
 
 app = Flask(__name__)
 port = 5000
@@ -29,12 +33,17 @@ def doStuff():
     if(coordinates is None):
         return json.dumps(dict())
 
-    neighbours_dict = loc_fns.get_k_nearest_neighbours_with_coords(coordinates, k, station_df)
-    neighbours_dict['house'] = {'latitude': coordinates[0], 'longitude': coordinates[1]}
+    results_dict = loc_fns.get_k_nearest_neighbours_with_coords(coordinates, k, station_df)
+    results_dict['house'] = {'latitude': coordinates[0], 'longitude': coordinates[1]}
 
-    neighbours_dict['bill'] = request.form['bill']
-    neighbours_dict['roof'] = request.form['roof']
-    return json.dumps(neighbours_dict)
+    results_dict['bill'] = int(request.form['bill'])
+    results_dict['roof'] = int(request.form['roof'])
+
+    if(int(results_dict['bill']) != 0):
+    	results = fns.getResults(coordinates, station_df, k, int(results_dict['bill']), int(results_dict['roof']))
+    	results_dict.update(results)
+
+    return json.dumps(results_dict)
 
 if __name__=="__main__":
     threading.Timer(1, lambda: webbrowser.open(url)).start()

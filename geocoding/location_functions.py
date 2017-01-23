@@ -120,7 +120,7 @@ def get_k_nearest_neighbours_with_coords(house, k, station_df):
         lat = station_df.loc[station_df['name']==name]['lat'].values[0]
         lng = station_df.loc[station_df['name']==name]['lng'].values[0]
         longname = stations_codename_dict[name]
-        stations_dict[str(i)] = {'name': longname, 'latitude': lat, 'longitude': lng}
+        stations_dict[str(i)] = {'type': 'station', 'name': longname, 'latitude': lat, 'longitude': lng}
 
     return stations_dict
 
