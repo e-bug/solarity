@@ -87,8 +87,8 @@ $(function(){
 						}
 						else if(obj[key].type == 'result') {
 							console.log('percentage: ' + obj[key].percentage + '%')
-							console.log('cost: ' + obj[key].percentage + 'CHF')
-							console.log('break even: ' + obj[key].percentage + 'years')
+							console.log('cost: ' + obj[key].cost + 'CHF')
+							console.log('break even: ' + obj[key].breakEven + 'years')
 						}
 					}
 				}

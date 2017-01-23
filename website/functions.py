@@ -8,11 +8,11 @@ monthsInAYear = 12
 hoursInADay = 24
 daysInAMonth = 30
 
-def get_monthly_power_potential(stations, weights, means):
+def get_average_power_potential(stations, weights, means):
     potential = 0
     for i in range(len(stations)):
     	print(len(means.power[stations[i]].get_values()))
-    	potential = potential + means.power[stations[i]].get_values() * weights[i]
+    	potential = potential + np.sum(means.power[stations[i]].get_values()) * weights[i] / len(means.power[stations[i]].get_values())
     
     return potential
 
@@ -55,8 +55,8 @@ def getResults(coordinates, stations, k, bill, roofArea):
 	means = pickle.load(open('../learning/groupedStations.p', 'rb'))
 	# means = pickle.load(open('../learning/groupedStationsAllFeatures.p', 'rb'))
 
-	monthly_potential = get_monthly_power_potential(neighbourNames.get_values(), neighbourWeights, means)
-	potential = np.mean(np.array(monthly_potential)) ## in Wp
+	potential = get_average_power_potential(neighbourNames.get_values(), neighbourWeights, means)
+	# potential = np.mean(np.array(monthly_potential)) ## in Wp
 
 	# Get the user values
 	averageElectricityBill = np.array([bill]) ## CHF
