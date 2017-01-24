@@ -193,7 +193,7 @@ box-shadow: 0 0 5px #818284;
 
 #ready-div {
   width:100%; 
-  height:200px;
+  height:auto;
   text-align: center;
 }
 
