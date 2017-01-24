@@ -40,7 +40,7 @@ input[type="color"]:focus,
   color: #464a4c;
   /*background-color: #eceeef;*/
   padding-top: 43px;
-  padding-bottom: 44px;
+  /*padding-bottom: 44px;*/
 }
 
 /** HEADER **/
@@ -56,7 +56,7 @@ input[type="color"]:focus,
   height: 60px; 
   margin: 10px 15px 10px 0;
 }
-
+  
 #logo-ada {
   background: url('../images/ada-logo88x60.png') no-repeat;
   width: 88px; 
@@ -153,6 +153,15 @@ box-shadow: 0 0 5px #818284;
   box-shadow: 0 1px 5px 1px #000;
 }
 
+.col-sm-6.col-xs-12 div output {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0px 0px 14px 0px;
+  font-size: 1.2em;
+}
+
 #roof-div {
   height: 200px;
   width: 100%;
@@ -181,6 +190,54 @@ box-shadow: 0 0 5px #818284;
   text-align: center;
   color: #F76B1C;
 }
+
+#ready-div {
+  width:100%; 
+  height:200px;
+  text-align: center;
+}
+
+#ready-but {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #F76B1C;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 15px;
+  vertical-align: middle;
+}
+
+#ready-but span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#ready-but span:after {
+  content: '!';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 0.5s;
+}
+
+#ready-breadyut:hover span {
+  padding-right: 25px;
+}
+
+#ready-but:hover span:after {
+  opacity: 1;
+  right: -10;
+}
+
 
 /* END HOME PAGE */
 

@@ -29,3 +29,10 @@ $("#address-text").keypress(function(event){
         $("#address-button").click();
     }
 });
+
+function updateBillVal(val) {
+    document.getElementById('bill-out').value = val; 
+}
+function updateRoofVal(val) {
+    document.getElementById('roof-out').value = val; 
+}

@@ -72,9 +72,13 @@
           <div id="bill-div">
             <div>What's your average monthly electric bill?</div>
             <!-- <input type="text" class="form-control" placeholder="20 CHF" aria-describedby="basic-addon1" autofocus id="bill-input" name="bill"> -->
+            
             <span>0 CHF
-            <input type="range" max="100" value="0" class="focused" id="bill-input" name="bill">
+            <input type="range" max="100" value="0" class="focused" id="bill-input" name="bill" onchange="updateBillVal(this.value);">
             100 CHF</span>
+           <output name="billOut" id="bill-out"></output>
+
+
 
           </div>
         </div>
@@ -83,16 +87,23 @@
             <div>What's your roof area?</div>
             <!-- <input type="text" class="form-control" placeholder="40 m^2" aria-describedby="basic-addon1" autofocus id="roof-input" name="roof"> -->
             <span>0 m<sup>2</sup>
-            <input type="range" max="100" value="0" class="focused" id="roof-input" name="roof">
+            <input type="range" max="100" value="0" class="focused" id="roof-input" name="roof" onchange="updateRoofVal(this.value);">
             100 m<sup>2</sup></span>
+            <output name="roofOut" id="roof-out"></output>
             <!-- <div class="input-group input-group-lg" id="roof-div-input">
               <input type="text" class="form-control" placeholder="100" aria-describedby="basic-addon2">
               <span class="input-group-addon" id="basic-addon2">m2</span>
             </div> -->
           </div>
-        </div>
+        </div>     
+
       </div>
     </form>
+
+    <div id="ready-div">
+    	<button class="button" id="ready-but"><span>Ready </span></button>	
+    </div>
+
 
     <div id="output" style="display: none;">
       <div>Placeholder for output graph + bar plot</div>
