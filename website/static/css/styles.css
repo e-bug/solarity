@@ -238,6 +238,10 @@ box-shadow: 0 0 5px #818284;
   right: -10;
 }
 
+#chartdiv {
+  width : 100%;
+  height  : 500px;
+}
 
 /* END HOME PAGE */
 

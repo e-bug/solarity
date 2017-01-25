@@ -1,3 +1,5 @@
+var chart;
+
 $(function(){
 	$('#address-button').click(function(){
 		$.ajax({
@@ -85,14 +87,61 @@ $(function(){
 							var lng =  parseFloat(Math.round(obj[key].longitude * 100) / 100).toFixed(2);
 							L.marker([lat, lng], {icon: sunIcon}).bindPopup("<b>" + name + "</b>" + "<br>" + "(" + lat + "," + lng + ")").addTo(map);
 						}
-						else if(obj[key].type == 'result') {
-							console.log('percentage: ' + obj[key].percentage + '%')
-							console.log('cost: ' + obj[key].cost + ' CHF')
-							console.log('break even: ' + obj[key].breakEven + ' years')
-							console.log('capacity: ' + obj[key].capacity + ' kWp')
-							console.log('power: ' + obj[key].power + ' kW')
-						}
+						// else if(obj[key].type == 'result') {
+						// 	console.log('percentage: ' + obj[key].percentage + '%')
+						// 	console.log('cost: ' + obj[key].cost + ' CHF')
+						// 	console.log('break even: ' + obj[key].breakEven + ' years')
+						// 	console.log('capacity: ' + obj[key].capacity + ' kWp')
+						// 	console.log('power: ' + obj[key].power + ' kW')
+						// }
 					}
+
+					var chartData = generateChartData(obj['result_5'].cost, obj['result_5'].breakEven);
+					chart = AmCharts.makeChart("chartdiv", {
+					    "type": "serial",
+					    "theme": "light",
+					    "legend": {
+					        "useGraphSettings": true
+					    },
+					    "dataProvider": chartData,
+					    "dataDateFormat": "YYYY-MM-DD",
+					    "synchronizeGrid":true,
+					    "valueAxes": [{
+					        "id":"v1",
+					        "axisColor": "#FF6600",
+					        "axisThickness": 2,
+					        "axisAlpha": 1,
+					        "position": "left"
+					    }],
+					    "graphs": [{
+					        "valueAxis": "v1",
+					        "lineColor": "#FF6600",
+					        "bullet": "round",
+					        "bulletBorderThickness": 1,
+					        "hideBulletsCount": 30,
+					        "title": "red line",
+					        "valueField": "saving",
+							"fillAlphas": 0
+					    }],
+					    "chartScrollbar": {},
+					    "chartCursor": {
+					        "cursorPosition": "mouse"
+					    },
+					    "categoryField": "date",
+					    "categoryAxis": {
+					        "parseDates": true,
+					        "axisColor": "#DADADA",
+					        "minorGridEnabled": true
+					    },
+					    "export": {
+					        "enabled": true,
+					        "position": "bottom-right"
+					     }
+					});
+
+					chart.addListener("dataUpdated", zoomChart);
+					zoomChart();
+
 				}
 			},
 			error: function(error){
@@ -101,3 +150,44 @@ $(function(){
 		});
 	});
 });
+
+function zoomChart() {
+	chart.zoomToIndexes(0, chart.dataProvider.length - 1);
+}
+
+function generateChartData(cost, breakEven) {
+    var chartData = [];
+    var savings = -parseInt(cost);
+    var slope = parseInt(cost) / parseInt(breakEven);
+
+    var breakYear = 2017 + parseInt(breakEven);
+    var breakMonth = parseInt((breakEven - parseInt(breakEven)) * 12) + 1;
+    var xaxis = breakYear.toString() + '-' + breakMonth.toString() + '-01';
+    chartData.push({date: '2017-01-01', saving: savings});
+
+    for (var i = 2018; i <= breakYear; i++) {
+
+        savings = savings + slope
+        var xaxis = i.toString() + '-01-01';
+
+        chartData.push({
+            date: xaxis,
+            saving: savings
+        });
+    }
+
+    chartData.push({date: xaxis, saving: 0});
+
+    for (var i = breakYear + 1; i <= 2017 + 25; i++) {
+
+        savings = savings + slope
+        var xaxis = i.toString() + '-01-01';
+
+        chartData.push({
+            date: xaxis,
+            saving: savings
+        });
+    }
+
+    return chartData;
+}

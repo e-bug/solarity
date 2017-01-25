@@ -11,7 +11,6 @@ daysInAMonth = 30
 def get_average_power_potential(stations, weights, means):
     potential = 0
     for i in range(len(stations)):
-    	print(len(means.power[stations[i]].get_values()))
     	potential = potential + np.sum(means.power[stations[i]].get_values()) * weights[i] / len(means.power[stations[i]].get_values())
     
     return potential

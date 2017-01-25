@@ -14,7 +14,7 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   	<link href="static/css/leaflet_awesome_markers.css" rel="stylesheet">
   	<link href="static/css/ranger.css" rel="stylesheet"/>
-
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
 
   </head>
 <body>
@@ -106,7 +106,7 @@
 
 
     <div id="output" style="display: none;">
-      <div>Placeholder for output graph + bar plot</div>
+      <div id="chartdiv"></div>
     </div>
 
   </div><!-- End of #main-content -->
@@ -178,5 +178,10 @@
 
   <script src="static/js/script.js"></script>
   <script src="static/js/python-script.js"></script>
+
+  <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+  <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+  <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+  <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
 </body>
 </html>
