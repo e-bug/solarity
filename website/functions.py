@@ -85,6 +85,6 @@ def getResults(coordinates, stations, k, bill, roofArea):
 	for i in range(0, 20):
 		if(solarPower[i] <= avgPower):
 			indexName = 'result_' + str((i + 1) * 5)
-			results[indexName] = {'type': 'result', 'percentage': 5 * (i + 1), 'breakEven': breakEven[i], 'cost': cost[i]}
+			results[indexName] = {'type': 'result', 'percentage': 5 * (i + 1), 'breakEven': breakEven[i], 'cost': cost[i], 'capacity': capacity[i], 'power': solarPower[i]}
 
 	return results
