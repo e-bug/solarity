@@ -1,5 +1,46 @@
 var chart;
 
+/* Initial map */
+var map = L.map('jumbo-img').setView([46.776043, 8.467892], 8);
+var sunIcon = L.AwesomeMarkers.icon({
+					        prefix: 'fa', //font awesome rather than bootstrap
+					        markerColor: 'purple', // see colors above
+					        icon: 'sun-o' //http://fortawesome.github.io/Font-Awesome/icons/
+			    		});
+var cartoDB = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+         });
+cartoDB.addTo(map);
+
+
+// function readTextFile(file)
+// {
+//     var rawFile = new XMLHttpRequest();
+//     rawFile.open("GET", file, false);
+//     rawFile.onreadystatechange = function ()
+//     {
+//         if(rawFile.readyState === 4)
+//         {
+//             if(rawFile.status === 200 || rawFile.status == 0)
+//             {
+//                 var allText = rawFile.responseText;
+//                 alert(allText);
+//             }
+//         }
+//     }
+//     rawFile.send(null);
+// }
+// readTextFile('/stations_name_latlng_dict.json')
+
+// var allStats = $.getJSON("stations_name_latlng_dict.json", function(json) {
+//     console.log(json); // this will show the info it in firebug console
+// });
+// console.log(allStats);
+
+// var geojsonCH = {"type":"Feature","id":"CHE","properties":{"name":"Switzerland"},"geometry":{"type":"Polygon","coordinates":[[[9.594226,47.525058],[9.632932,47.347601],[9.47997,47.10281],[9.932448,46.920728],[10.442701,46.893546],[10.363378,46.483571],[9.922837,46.314899],[9.182882,46.440215],[8.966306,46.036932],[8.489952,46.005151],[8.31663,46.163642],[7.755992,45.82449],[7.273851,45.776948],[6.843593,45.991147],[6.5001,46.429673],[6.022609,46.27299],[6.037389,46.725779],[6.768714,47.287708],[6.736571,47.541801],[7.192202,47.449766],[7.466759,47.620582],[8.317301,47.61358],[8.522612,47.830828],[9.594226,47.525058]]]}}
+// L.geoJson(geojsonCH).addTo(map);
+
+
 $(function(){
 	$('#address-button').click(function(){
 		$.ajax({
@@ -13,8 +54,13 @@ $(function(){
 				if(Object.keys(obj).length == 0) alert("Address is invalid!");
 				else
 				{
+					map.eachLayer(function (layer) {
+			    	map.removeLayer(layer);
+					});
+
 					var house = obj.house;
-					var map = L.map('jumbo-img').setView([house.latitude, house.longitude], 11);
+					
+					map.setView([house.latitude, house.longitude], 11);
 
 					//possible colors 'red', 'darkred', 'orange', 'green', 'darkgreen', 'blue', 'purple', 'darkpurple', 'cadetblue'
 					var homeIcon = L.AwesomeMarkers.icon({
@@ -65,9 +111,12 @@ $(function(){
 									maxZoom: 18,
 									ext: 'png'
 							});
+      	 var cartoDB = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+         });
 
 
-					Stamen_Watercolor.addTo(map);
+					cartoDB.addTo(map);
 					homeMarker.addTo(map);
 
 					for (var key in obj) {

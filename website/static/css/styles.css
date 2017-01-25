@@ -250,7 +250,7 @@ box-shadow: 0 0 5px #818284;
 @media (min-width: 1200px) {
   /* Home Page */ 
   #jumbo-img {
-    background: url('../images/map_1136.png') no-repeat;
+    /*background: url('../images/map_1136.png') no-repeat;*/
     height: 771px;
   }
   /* End Home Page */
@@ -260,7 +260,7 @@ box-shadow: 0 0 5px #818284;
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Home Page */
   .container .jumbotron {
-    background: url('../images/map_936.png') no-repeat;
+    /*background: url('../images/map_936.png') no-repeat;*/
     height: 635px;
   }
   /* End Home Page */
@@ -270,7 +270,7 @@ box-shadow: 0 0 5px #818284;
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
   .container .jumbotron {
-    background: url('../images/map_716.png') no-repeat;
+    /*background: url('../images/map_716.png') no-repeat;*/
     height: 486px;
   }
   /* End Home Page */
