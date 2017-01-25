@@ -26,6 +26,18 @@ station_df = pickle.load(open('../geocoding/station_df.p', 'rb'))
 def index():
     return render_template('index.html')
 
+@app.route('/getMap', methods=['POST'])
+def getMap():
+    address =  request.form['address']
+    coordinates = geo_fns.getCoordinates(address)
+    if(coordinates is None):
+        return json.dumps(dict())
+
+    results_dict = loc_fns.get_k_nearest_neighbours_with_coords(coordinates, k, station_df)
+    results_dict['house'] = {'latitude': coordinates[0], 'longitude': coordinates[1]}
+
+    return json.dumps(results_dict)
+
 @app.route('/doStuff', methods=['POST'])
 def doStuff():
     address =  request.form['address']

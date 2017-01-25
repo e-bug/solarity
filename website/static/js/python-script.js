@@ -3,23 +3,13 @@ var chart;
 $(function(){
 	$('#address-button').click(function(){
 		$.ajax({
-			url: '/doStuff',
+			url: '/getMap',
 			data: $('form').serialize(),
 			type: 'POST',
 			success: function(response){
 				
-				var bill = document.getElementById('bill-input').value
-				var roof = document.getElementById('roof-input').value
-				if(bill == 0 || roof == 0)
-				{
-					alert("Please enter you bill and roof size!");
-					return;
-				}
-
-				document.getElementById('output').style.display = "block";
-
 				var obj = JSON.parse(response);
-				//document.getElementById("roof-input").value = 'Your address is ' + obj.address + ' and your bill is ' + obj.bill;
+
 				if(Object.keys(obj).length == 0) alert("Address is invalid!");
 				else
 				{
@@ -96,6 +86,39 @@ $(function(){
 						// }
 					}
 
+				}
+			},
+			error: function(error){
+				console.log(error);
+			}
+		});
+	});
+});
+
+$(function(){
+	$('#ready-but').click(function(){
+		$.ajax({
+			url: '/doStuff',
+			data: $('form').serialize(),
+			type: 'POST',
+			success: function(response){
+				
+				var bill = document.getElementById('bill-input').value
+				var roof = document.getElementById('roof-input').value
+				if(bill == 0 || roof == 0)
+				{
+					alert("Please enter you bill and roof size!");
+					return;
+				}
+
+				document.getElementById('output').style.display = "block";
+
+				var obj = JSON.parse(response);
+				//document.getElementById("roof-input").value = 'Your address is ' + obj.address + ' and your bill is ' + obj.bill;
+				if(Object.keys(obj).length == 0) alert("Address is invalid!");
+				else
+				{
+					
 					var chartData = generateChartData(obj['result_5'].cost, obj['result_5'].breakEven);
 					chart = AmCharts.makeChart("chartdiv", {
 					    "type": "serial",
