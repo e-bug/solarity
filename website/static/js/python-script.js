@@ -40,7 +40,7 @@ cartoDB.addTo(map);
 
 // var geojsonCH = {"type":"Feature","id":"CHE","properties":{"name":"Switzerland"},"geometry":{"type":"Polygon","coordinates":[[[9.594226,47.525058],[9.632932,47.347601],[9.47997,47.10281],[9.932448,46.920728],[10.442701,46.893546],[10.363378,46.483571],[9.922837,46.314899],[9.182882,46.440215],[8.966306,46.036932],[8.489952,46.005151],[8.31663,46.163642],[7.755992,45.82449],[7.273851,45.776948],[6.843593,45.991147],[6.5001,46.429673],[6.022609,46.27299],[6.037389,46.725779],[6.768714,47.287708],[6.736571,47.541801],[7.192202,47.449766],[7.466759,47.620582],[8.317301,47.61358],[8.522612,47.830828],[9.594226,47.525058]]]}}
 // L.geoJson(geojsonCH).addTo(map);
-
+var obj;
 
 $(function(){
 	$('#address-button').click(function(){
@@ -50,7 +50,7 @@ $(function(){
 			type: 'POST',
 			success: function(response){
 				
-				var obj = JSON.parse(response);
+				obj = JSON.parse(response);
 
 				if(Object.keys(obj).length == 0) alert("Address is invalid!");
 				else
@@ -164,11 +164,14 @@ $(function(){
 
 				document.getElementById('output').style.display = "block";
 
-				var obj = JSON.parse(response);
+				obj = JSON.parse(response);
 				//document.getElementById("roof-input").value = 'Your address is ' + obj.address + ' and your bill is ' + obj.bill;
 				if(Object.keys(obj).length == 0) alert("Address is invalid!");
 				else
 				{
+					document.getElementById("roof-input").disabled = true;
+					document.getElementById("bill-input").disabled = true;
+
 					var barData = [];
 					for (var key in obj) {
 						if (obj[key].type == 'result') {
@@ -231,55 +234,7 @@ $(function(){
 				     }
 					});
 
-
-					var chartData = generateChartData(obj['result_5'].cost, obj['result_5'].breakEven);
-					chart = AmCharts.makeChart("chartdiv", {
-					    "type": "serial",
-					    "theme": "light",
-					    "legend": {
-					        "useGraphSettings": true
-					    },
-					    "dataProvider": chartData,
-					    "dataDateFormat": "YYYY-MM-DD",
-					    "synchronizeGrid":true,
-					    "valueAxes": [{
-					        "id":"v1",
-					        "axisColor": "#FF6600",
-					        "axisThickness": 2,
-					        "axisAlpha": 1,
-					        "position": "left"
-					    }],
-					    "graphs": [{
-					        "valueAxis": "v1",
-					        // "lineColor": "#FF6600",
-					        "lineColor": "#03e303",
-					        "lineThickness": 2,
-					        "negativeLineColor": "#e30303",
-					        "bullet": "round",
-					        "bulletBorderThickness": 1,
-					        "hideBulletsCount": 30,
-					        "title": "red line",
-					        "valueField": "saving",
-							"fillAlphas": 0
-					    }],
-					    "chartScrollbar": {},
-					    "chartCursor": {
-					        "cursorPosition": "mouse"
-					    },
-					    "categoryField": "date",
-					    "categoryAxis": {
-					        "parseDates": true,
-					        "axisColor": "#DADADA",
-					        "minorGridEnabled": true
-					    },
-					    "export": {
-					        "enabled": true,
-					        "position": "bottom-right"
-					     }
-					});
-
-					chart.addListener("dataUpdated", zoomChart);
-					zoomChart();
+					drawGraph(5);
 
 				}
 			},
@@ -329,4 +284,66 @@ function generateChartData(cost, breakEven) {
     }
 
     return chartData;
+}
+
+function drawGraph(percentage) {
+
+	var indexString = 'result_' + percentage.toString();
+	if(obj[indexString] == undefined)
+	{
+		if(parseInt(percentage) == 0) alert("At least cover some of your roof with panels!");
+		else alert("It wouldn't make sense to cover this much of your roof with panels. Try a smaller percentage!");
+		return;
+	}
+
+	var chartData = generateChartData(obj[indexString].cost, obj[indexString].breakEven);
+	chart = AmCharts.makeChart("chartdiv", {
+	    "type": "serial",
+	    "theme": "light",
+	    "legend": {
+	        "useGraphSettings": true
+	    },
+	    "dataProvider": chartData,
+	    "dataDateFormat": "YYYY-MM-DD",
+	    "synchronizeGrid":true,
+	    "valueAxes": [{
+	        "id":"v1",
+	        "axisColor": "#FF6600",
+	        "axisThickness": 2,
+	        "axisAlpha": 1,
+	        "position": "left",
+	        "minimum":-10000,
+	        "maximum":10000
+	    }],
+	    "graphs": [{
+	        "valueAxis": "v1",
+	        // "lineColor": "#FF6600",
+	        "lineColor": "#03e303",
+	        "lineThickness": 2,
+	        "negativeLineColor": "#e30303",
+	        "bullet": "round",
+	        "bulletBorderThickness": 1,
+	        "hideBulletsCount": 30,
+	        "title": "savings (in CHF)",
+	        "valueField": "saving",
+			"fillAlphas": 0
+	    }],
+	    "chartScrollbar": {},
+	    "chartCursor": {
+	        "cursorPosition": "mouse"
+	    },
+	    "categoryField": "date",
+	    "categoryAxis": {
+	        "parseDates": true,
+	        "axisColor": "#DADADA",
+	        "minorGridEnabled": true
+	    },
+	    "export": {
+	        "enabled": true,
+	        "position": "bottom-right"
+	     }
+	});
+
+	chart.addListener("dataUpdated", zoomChart);
+	zoomChart();
 }

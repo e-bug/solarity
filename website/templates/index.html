@@ -105,8 +105,20 @@
 
 
     <div id="output" style="display: none;">
-    	<div id="bardiv"></div>
-      <div id="chartdiv"></div>
+      <div id="bar-div">
+        <div>Here you can see the initial investment and potential savings you'll make as a function of the percentage of your roof covered with solar panels.</div>
+        <div id="bardiv"></div>
+      </div>
+
+      <div id="graph-div">
+        <div>What percentage of your roof do you want the panels to cover?</div>
+        <!-- <input type="text" class="form-control" placeholder="20 CHF" aria-describedby="basic-addon1" autofocus id="bill-input" name="bill"> -->
+
+        <span>5%
+        <input type="range" max="100" value="5" step="5" class="focused" id="graph-slider-input" name="graph-slider" onchange="drawGraph(this.value);">
+        100%</span>
+        <div id="chartdiv"></div>
+      </div>
     </div>
 
   </div><!-- End of #main-content -->
