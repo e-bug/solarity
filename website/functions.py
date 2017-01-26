@@ -79,11 +79,14 @@ def getResults(coordinates, stations, k, bill, roofArea):
 	newBill, newUsage = get_new_bill(averageElectricityBill, solarPower[indxx], elecTarrif)
 	savings = get_cummulative_savings(averageElectricityBill, newBill, cost[indxx])
 	breakEven = get_break_even_time(savings) / monthsInAYear
+	finalSavings = savings[:,-1]
 
 	results = dict()
 	for i in range(0, 20):
 		if(solarPower[i] <= avgPower):
 			indexName = 'result_' + str((i + 1) * 5)
-			results[indexName] = {'type': 'result', 'percentage': 5 * (i + 1), 'breakEven': breakEven[i], 'cost': cost[i], 'capacity': capacity[i], 'power': solarPower[i]}
+			results[indexName] = {'type': 'result', 'percentage': 5 * (i + 1), 
+                                  'breakEven': round(breakEven[i]*2)/2, 'cost': int(cost[i]), 
+                                  'capacity': capacity[i], 'power': solarPower[i], 'savings': int(finalSavings[i])}
 
 	return results

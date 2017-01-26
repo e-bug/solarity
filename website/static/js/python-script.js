@@ -1,4 +1,5 @@
 var chart;
+var bar;
 
 /* Initial map */
 var map = L.map('jumbo-img').setView([46.776043, 8.467892], 8);
@@ -144,6 +145,7 @@ $(function(){
 	});
 });
 
+
 $(function(){
 	$('#ready-but').click(function(){
 		$.ajax({
@@ -167,7 +169,69 @@ $(function(){
 				if(Object.keys(obj).length == 0) alert("Address is invalid!");
 				else
 				{
-					
+					var barData = [];
+					for (var key in obj) {
+						if (obj[key].type == 'result') {
+							var percentage = obj[key].percentage; 
+							var cost = obj[key].cost;
+							var savings =  obj[key].savings;
+							var entry = {'percentage': percentage, 'cost': cost, 'savings': savings};
+							barData.push(entry);
+						}
+					}
+					barData.sort(function(a, b){return a.percentage-b.percentage});
+					bar = AmCharts.makeChart("bardiv", {
+						"type": "serial",
+					  "theme": "light",
+						"categoryField": "percentage",
+						"rotate": true,
+						"startDuration": 1,
+						"categoryAxis": {
+							"gridPosition": "start",
+							"position": "left"
+						},
+						"trendLines": [],
+						"graphs": [
+							{
+								"balloonText": "Initial investment: [[value]] CHF",
+								"fillAlphas": 0.8,
+								"id": "AmGraph-1",
+								"lineAlpha": 0.2,
+								"fillColors": "#e30303",
+								"title": "Cost",
+								"type": "column",
+								"valueField": "cost"
+							},
+							{
+								"balloonText": "Savings after 25 years: [[value]] CHF",
+								"fillAlphas": 0.8,
+								"id": "AmGraph-2",
+								"lineAlpha": 0.2,
+								"fillColors": "#03e303",
+								"title": "Savings",
+								"type": "column",
+								"valueField": "savings"
+							},
+						],
+						"guides": [],
+						"valueAxes": [
+							{
+								"id": "ValueAxis-1",
+								"position": "top",
+								"axisAlpha": 0
+							}
+						],
+						"allLabels": [],
+						"balloon": {},
+						"titles": [],
+						"dataProvider": barData,
+					  "export": {
+				    	"enabled": true,
+				    	"position": "bottom-right"
+				     }
+					});
+
+
 					var chartData = generateChartData(obj['result_5'].cost, obj['result_5'].breakEven);
 					chart = AmCharts.makeChart("chartdiv", {
 					    "type": "serial",
@@ -187,7 +251,10 @@ $(function(){
 					    }],
 					    "graphs": [{
 					        "valueAxis": "v1",
-					        "lineColor": "#FF6600",
+					        // "lineColor": "#FF6600",
+					        "lineColor": "#03e303",
+					        "lineThickness": 2,
+					        "negativeLineColor": "#e30303",
 					        "bullet": "round",
 					        "bulletBorderThickness": 1,
 					        "hideBulletsCount": 30,
