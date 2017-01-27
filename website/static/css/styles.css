@@ -159,6 +159,41 @@ input[type="color"]:focus,
   text-align: right;
 }
 
+#bar-div {
+  box-shadow: 0 0 5px #818284;
+  margin-bottom: 15px;
+}
+#graph-div {
+  box-shadow: 0 0 5px #818284;
+  margin-bottom: 15px;
+}
+#graph-div h2 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #464a4c;
+  padding-top: 5px;
+}
+#graph-div span {
+  width: 100%;
+  display: table;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#payback-div span h2 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #464a4c;
+  padding-top: 5px;
+  margin-top: 10px;
+}
+#payback-div span p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 8em;
+  color: #F76B1C;
+  height: 120px;
+}
+
 .col-sm-6.col-xs-12 div output {
   text-align: center;
   position: absolute;

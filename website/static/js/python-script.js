@@ -204,7 +204,7 @@ $(function(){
 						"trendLines": [],
 						"graphs": [
 							{
-								"balloonText": "Initial investment: [[value]] CHF",
+								"balloonText": "Initial Investment: [[value]] CHF",
 								"fillAlphas": 0.8,
 								"id": "AmGraph-1",
 								"lineAlpha": 0.2,
@@ -317,7 +317,7 @@ function drawGraph(percentage) {
 		return;
 	}
 
-	document.getElementById('payback-out').value = obj[indexString].breakEven;
+	document.getElementById('payback-out').innerHTML = obj[indexString].breakEven;
 
 	var chartData = generateChartData(obj[indexString].cost, obj[indexString].breakEven);
 	chart = AmCharts.makeChart("chartdiv", {

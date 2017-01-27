@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 		<link href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   	<link href="static/css/leaflet_awesome_markers.css" rel="stylesheet">
@@ -116,24 +117,28 @@
       </div>
 
       <div id="graph-div">
-        <div>What percentage of your roof do you want the panels to cover?</div>
+        <h2>What percentage of your roof do you want the panels to cover?</h2>
         <!-- <input type="text" class="form-control" placeholder="20 CHF" aria-describedby="basic-addon1" autofocus id="bill-input" name="bill"> -->
-
         <span>5%
         <input type="range" max="100" value="5" step="5" class="focused" id="graph-slider-input" name="graph-slider" onchange="drawGraph(this.value);">
         100%</span>
+        
         <div id="chartdiv"></div>
+
+        <hr style="height:3px;border:none;color:#eceeef;background-color:#eceeef;margin-bottom: -20px" />
+        
+	      <div id="payback-div">
+	        <span>
+	        <p name="paybackOut" id="payback-out"></p>
+	        <h2>YEARS UNTIL PAYBACK</h2>
+	        </span>
+	      </div>
+		    
       </div>
+
     </div>
 
-    <div class="col-sm-12 col-xs-12">
-      <div id="payback-div">
-        <div>Years until payback</div>
-        <span>
-        <output name="paybackOut" id="payback-out"></output>
-        </span>
-      </div>
-    </div>
+    
 
   </div><!-- End of #main-content -->
 
