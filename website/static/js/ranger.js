@@ -3,7 +3,7 @@ var i = 1;
 
 $('.range').each(function() {
   var n = this.getElementsByTagName('input')[0].value;
-  var x = (n / 100) * (this.getElementsByTagName('input')[0].offsetWidth - 8) - 12;
+  var x = (n / 1000) * (this.getElementsByTagName('input')[0].offsetWidth - 8) - 12;
   this.id = 'range' + i;
   if (this.getElementsByTagName('input')[0].value == 0) {
     this.className = "range"
@@ -15,6 +15,17 @@ $('.range').each(function() {
 });
 
 $('input[type=range]').on("input", function() {
+  var a = this.value;
+  var p = (a / 1000) * (this.offsetWidth - 8) - 12;
+  if (a == 0) {
+    this.parentNode.className = "range"
+  } else {
+    this.parentNode.className = "range rangeM"
+  }
+  this.parentNode.getElementsByTagName('style')[0].innerHTML += "#" + this.parentNode.id + " input[type=range]::-webkit-slider-runnable-track {background:linear-gradient(to right, #FAD961 0%, #F76B1C " + a/10 + "%, #515151 " + a/10 + "%)} #" + this.parentNode.id + ":hover input[type=range]:before{content:'" + a + "'!important;left: " + p + "px;} #" + this.parentNode.id + ":hover input[type=range]:after{left: " + p + "px}";
+})
+
+$('input[max=100]').on("input", function() {
   var a = this.value;
   var p = (a / 100) * (this.offsetWidth - 8) - 12;
   if (a == 0) {
