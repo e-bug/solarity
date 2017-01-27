@@ -49,3 +49,4 @@ function updateBillVal(val) {
 function updateRoofVal(val) {
     document.getElementById('roof-out').value = val; 
 }
+

@@ -518,6 +518,7 @@ footer .bar-wrap {
 .copyright {
   color: #778888;
   margin-top: 5px;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 1000px){

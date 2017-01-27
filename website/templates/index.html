@@ -55,7 +55,7 @@
       <div class="jumbotron">
         <div class="input-group input-group-lg" id="address-div">
           <span class="input-group-addon" id="basic-addon1">Enter an address</span>
-          <input type="text" id="address-text" class="form-control" placeholder="Route Cantonale, 1015 Lausanne" aria-describedby="basic-addon1" autofocus id="address-input" name="address">
+          <input type="text" id="address-text" class="form-control" placeholder="Route Cantonale 33, 1025 St. Sulpice" aria-describedby="basic-addon1" autofocus id="address-input" name="address">
           <span class="input-group-btn">
           	<button class="btn btn-lg btn-primary btn-block" type="button" id="address-button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>	
           </span>
@@ -75,7 +75,7 @@
             <!-- <span>0 CHF -->
             <span>
             <!-- <input type="range" max="1000" value="0" class="focused" id="bill-input" name="bill" onchange="updateBillVal(this.value);"> -->
-            <input type="text" name="bill" id="bill-input">
+            <input type="text" name="bill" id="bill-input" placeholder="50">
             CHF</span>
            <output name="billOut" id="bill-out"></output>
 
@@ -90,7 +90,7 @@
             <!-- <span>0 m<sup>2</sup> -->
             <!-- <input type="range" max="1000" value="0" class="focused" id="roof-input" name="roof" onchange="updateRoofVal(this.value);"> -->
             <span>
-            <input type="text" name="roof" id="roof-input">
+            <input type="text" name="roof" id="roof-input" placeholder="100">
             <!-- 1000 m -->
             m<sup>2</sup></span>
             <output name="roofOut" id="roof-out"></output>
@@ -111,7 +111,7 @@
 
     <div id="output" style="display: none;">
       <div id="bar-div">
-        <div>Here you can see the initial investment and potential savings you'll make as a function of the percentage of your roof covered with solar panels.</div>
+        <!-- <div>Here you can see the initial investment and potential savings you'll make as a function of the percentage of your roof covered with solar panels.</div> -->
         <div id="bardiv"></div>
       </div>
 
@@ -123,6 +123,15 @@
         <input type="range" max="100" value="5" step="5" class="focused" id="graph-slider-input" name="graph-slider" onchange="drawGraph(this.value);">
         100%</span>
         <div id="chartdiv"></div>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-xs-12">
+      <div id="payback-div">
+        <div>Years until payback</div>
+        <span>
+        <output name="paybackOut" id="payback-out"></output>
+        </span>
       </div>
     </div>
 
@@ -180,7 +189,7 @@
           </a>
         </div>
         <div class="clear"></div> -->
-        <div class="copyright">&copy;  2017 &ndash; Emanuele Bugliarello, Maaz Mohiuddin, and Wajeb Saab</div>
+        <div class="copyright">&copy;  2017 &ndash; Emanuele Bugliarello &bull; Maaz Mohiuddin &bull; Wajeb Saab</div>
       </div>
     </div>
   </footer>

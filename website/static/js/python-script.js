@@ -172,6 +172,8 @@ $(function(){
 					document.getElementById("roof-input").disabled = false;
 					document.getElementById("bill-input").disabled = false;
 
+
+
 					var barData = [];
 					for (var key in obj) {
 						if (obj[key].type == 'result') {
@@ -180,6 +182,8 @@ $(function(){
 							var savings =  obj[key].savings;
 							var entry = {'percentage': percentage, 'cost': cost, 'savings': savings};
 							barData.push(entry);
+
+							// document.getElementById('payback-out').value = obj[key].breakEven; 
 						}
 					}
 					barData.sort(function(a, b){return a.percentage-b.percentage});
@@ -189,6 +193,10 @@ $(function(){
 						"categoryField": "percentage",
 						"rotate": true,
 						"startDuration": 1,
+						"legend": {
+			    		"enabled": true,
+			        "useGraphSettings": true
+				    },
 						"categoryAxis": {
 							"gridPosition": "start",
 							"position": "left"
@@ -201,7 +209,7 @@ $(function(){
 								"id": "AmGraph-1",
 								"lineAlpha": 0.2,
 								"fillColors": "#e30303",
-								"title": "Cost",
+								"title": "Initial Investment",
 								"type": "column",
 								"valueField": "cost"
 							},
@@ -211,7 +219,7 @@ $(function(){
 								"id": "AmGraph-2",
 								"lineAlpha": 0.2,
 								"fillColors": "#03e303",
-								"title": "Savings",
+								"title": "Savings after 25 years",
 								"type": "column",
 								"valueField": "savings"
 							}
@@ -221,11 +229,13 @@ $(function(){
 							{
 								"id": "ValueAxis-1",
 								"position": "top",
-								"axisAlpha": 0
+								"axisAlpha": 0,
+								"title": "Amount [CHF]",
+								"titleFontSize": 16
 							}
 						],
 						"categoryAxis": {
-							"title": "Percentage of roof covered with solar panels",
+							"title": "Percentage of roof covered",
 							"titleFontSize": 16,
 							"labelFunction": function(number, label, categoryAxis) {
      						 label = AmCharts.formatDataContextValue("[[value]] %", {
@@ -307,6 +317,8 @@ function drawGraph(percentage) {
 		return;
 	}
 
+	document.getElementById('payback-out').value = obj[indexString].breakEven;
+
 	var chartData = generateChartData(obj[indexString].cost, obj[indexString].breakEven);
 	chart = AmCharts.makeChart("chartdiv", {
 	    "type": "serial",
@@ -353,7 +365,13 @@ function drawGraph(percentage) {
 	    "export": {
 	        "enabled": true,
 	        "position": "bottom-right"
-	     }
+	     },
+	    "titles": [
+		    {
+		    	"text": "Annual savings when " + percentage + "% of roof is covered",
+		    	"size": 18
+		    }
+	    ],
 	});
 
 	chart.addListener("dataUpdated", zoomChart);
