@@ -301,19 +301,20 @@ function drawGraph(percentage) {
 	    "type": "serial",
 	    "theme": "light",
 	    "legend": {
-	        "useGraphSettings": true
+    		"enabled": false,
+        "useGraphSettings": true
 	    },
 	    "dataProvider": chartData,
 	    "dataDateFormat": "YYYY-MM-DD",
 	    "synchronizeGrid":true,
 	    "valueAxes": [{
 	        "id":"v1",
-	        "axisColor": "#FF6600",
-	        "axisThickness": 2,
+	        // "axisColor": "#FF6600",
+	        // "axisThickness": 2,
 	        "axisAlpha": 1,
 	        "position": "left",
-	        "minimum":-10000,
-	        "maximum":10000
+	        // "minimum":-10000,
+	        // "maximum":10000
 	    }],
 	    "graphs": [{
 	        "valueAxis": "v1",
@@ -324,7 +325,7 @@ function drawGraph(percentage) {
 	        "bullet": "round",
 	        "bulletBorderThickness": 1,
 	        "hideBulletsCount": 30,
-	        "title": "savings (in CHF)",
+	        "title": "Savings [CHF]",
 	        "valueField": "saving",
 			"fillAlphas": 0
 	    }],
