@@ -30,6 +30,19 @@ $("#address-text").keypress(function(event){
     }
 });
 
+$("#bill-input").keypress(function(event){
+    if(event.keyCode == 13){
+        event.preventDefault();
+        $("#ready-but").click();
+    }
+});
+$("#roof-input").keypress(function(event){
+    if(event.keyCode == 13){
+        event.preventDefault();
+        $("#ready-but").click();
+    }
+});
+
 function updateBillVal(val) {
     document.getElementById('bill-out').value = val; 
 }

@@ -214,16 +214,27 @@ $(function(){
 								"title": "Savings",
 								"type": "column",
 								"valueField": "savings"
-							},
+							}
 						],
 						"guides": [],
 						"valueAxes": [
 							{
 								"id": "ValueAxis-1",
 								"position": "top",
-								"axisAlpha": 0,
+								"axisAlpha": 0
 							}
 						],
+						"categoryAxis": {
+							"title": "Percentage of roof covered with solar panels",
+							"titleFontSize": 16,
+							"labelFunction": function(number, label, categoryAxis) {
+     						 label = AmCharts.formatDataContextValue("[[value]] %", {
+     						 		value: number
+     						 	});
+
+     						 return label;
+    					}
+						},
 						"allLabels": [],
 						"balloon": {},
 						"titles": [],
