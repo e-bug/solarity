@@ -169,8 +169,8 @@ $(function(){
 				if(Object.keys(obj).length == 0) alert("Address is invalid!");
 				else
 				{
-					document.getElementById("roof-input").disabled = true;
-					document.getElementById("bill-input").disabled = true;
+					document.getElementById("roof-input").disabled = false;
+					document.getElementById("bill-input").disabled = false;
 
 					var barData = [];
 					for (var key in obj) {
@@ -221,7 +221,7 @@ $(function(){
 							{
 								"id": "ValueAxis-1",
 								"position": "top",
-								"axisAlpha": 0
+								"axisAlpha": 0,
 							}
 						],
 						"allLabels": [],
@@ -327,7 +327,7 @@ function drawGraph(percentage) {
 	        "hideBulletsCount": 30,
 	        "title": "Savings [CHF]",
 	        "valueField": "saving",
-			"fillAlphas": 0
+					"fillAlphas": 0
 	    }],
 	    "chartScrollbar": {},
 	    "chartCursor": {
