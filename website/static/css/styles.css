@@ -298,102 +298,6 @@ box-shadow: 0 0 5px #818284;
 }
 /* END HOME PAGE */
 
-
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  /* Home Page */ 
-  #jumbo-img {
-    /*background: url('../images/map_1136.png') no-repeat;*/
-    height: 771px;
-  }
-  /* End Home Page */
-}
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* Home Page */
-  .container .jumbotron {
-    /*background: url('../images/map_936.png') no-repeat;*/
-    height: 635px;
-  }
-  /* End Home Page */
-}
-
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  /* Home Page */
-  .container .jumbotron {
-    /*background: url('../images/map_716.png') no-repeat;*/
-    height: 486px;
-  }
-  /* End Home Page */
-}
-
-/********** Extra small devices only **********/
-@media (max-width: 767px) {
-  /* Header */
-  .navbar-brand {
-    padding-top: 10px;
-    height: 80px;
-  }
-  .navbar-brand h1 { 
-    padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
-  }
-
-  #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
-  }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
-    font-size: 1em;
-    margin-right: 5px;
-  }
-  /* End Header */
-
-  /* Footer */
-  .panel-footer section {
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  .panel-footer section:nth-child(3) {
-    margin-bottom: 0; /* margin already exists on the whole row */
-  }
-  .panel-footer section hr {
-    width: 50%;
-  }
-  /* End Footer */
-
-  /* Home Page */
-  .container .jumbotron {
-    width: 360px;
-    margin-top: 30px;
-    align-self: center;
-
-  }
-}
-
-
-/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
-@media (max-width: 479px) {
-  /* Header */
-  .navbar-brand h1 { 
-    padding-top: 5px;
-    font-size: 6vw;
-  }
-  /* End Header */
-  
-  /* Home page */
-  .col-xxs-12 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    float: left;
-    width: 100%;
-  }
-}
-
-
 /* FOOTER */
 
 * {
@@ -590,3 +494,114 @@ footer .bar-wrap {
 }
 
 /* END FOOTER */
+
+
+/* DEVICE-SPECIFIC CONTENTS */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  /* Home Page */ 
+  #jumbo-img {
+    height: 771px;
+  }
+  /* End Home Page */
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Home Page */
+  .container .jumbotron {
+    height: 635px;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    height: 486px;
+  }
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    width: 100%;
+    margin-top: 30px;
+    align-self: center;
+
+  }
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand {
+    height: 55px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 9vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+
+  #basic-addon1 {
+    font-size: 14px;
+    padding: 0;
+  }
+  #address-text {
+    font-size: 14px;
+  }
+  #address-button {
+    padding: 0;
+    margin: 0;
+  }
+
+  #bill-div span {
+    font-size: 22px;
+  }
+  #roof-div span {
+    font-size: 22px;
+  }
+  /* End Home page */
+
+  /* Footer */
+  .copyright {
+    font-size: 14px;
+  }
+  footer .bar {
+    padding: 0;
+  }
+}
