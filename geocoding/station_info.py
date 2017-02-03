@@ -17,7 +17,7 @@ def degreeMin2Decimal(dm):
 def getParsedStation(string):
     """
     Retrieve name, latitude and longitude of a station from a line in Idaweb's legends.
-    :string: line of Idaweb's legend file corresponding to a station information
+    :param string: line of Idaweb's legend file corresponding to a station information
     :return: name, lat, lng of the station in the passed string
     """
     name = string.split()[0]
