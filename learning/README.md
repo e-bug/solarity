@@ -13,7 +13,6 @@ This module shows how to define a regression model from weather data to produced
 - `extractTempAndWindFromMeteoLausanne.ipynb`: iPython notebook showing how to retrieve temperature and wind information in Lausanne for the EPFL measurements. It makes use of the weather data from MeteoLausanne, which is not in the repository due to its large size.
 - `groupedStations.p`: pd.DataFrame containing average irradiance and power per month for each station.
 - `groupedStationsAllFeatures.p`: pd.DataFrame containing average irradiance, temperature, wind and power per month for each station.
-- `irradMean.p`: TODO_DESCRIPTION. The size of this file exceeds the maximum allowed size in GitHub.
 - `irrad-meanFromIdaweb.ipynb`: iPython notebook showing how to  estimate the produced power for each month at each station.
 - `model.p`: most accurate regression model for produced power at ELL using only irradiance at ELL. 
 - `modelWithTempAndWind.ipynb`: most accurate regression model for produced power at ELL using only irradiance, temperature and wind. Less accurate than `model.p`.
